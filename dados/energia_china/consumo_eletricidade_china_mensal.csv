@@ -1,0 +1,121 @@
+data,valor_100_milhoes_kwh,valor_twh,publicacao,url,arquivo_fonte,trecho_original,status,observado_direto_twh,nota
+2015-01-01,4859.0,485.9,2015-03-16,https://www.nea.gov.cn/2015-03/16/c_134070233.htm,fontes_html/00f143f9950b10cf5a38.html,1-2月，全国全社会用电量累计8454亿千瓦时 | 2月份，全社会用电量3595亿千瓦时,reconstituido_mesma_fonte,,"Janeiro = bimestre (8454) - fevereiro (3595), em 10^8 kWh; sujeito ao arredondamento da fonte."
+2015-02-01,3595.0,359.5,2015-03-16,https://www.nea.gov.cn/2015-03/16/c_134070233.htm,fontes_html/00f143f9950b10cf5a38.html,2月份，全社会用电量3595亿千瓦时,observado_mensal,359.5,
+2015-03-01,4448.0,444.8,2015-04-16,https://www.nea.gov.cn/2015-04/16/c_134155763.htm,fontes_html/aebbb656ea75931a6cb0.html,3月份，全社会用电量4448亿千瓦时,observado_mensal,444.8,
+2015-04-01,4415.0,441.5,2015-05-14,https://www.nea.gov.cn/2015-05/14/c_134239299.htm,fontes_html/949c8d484a5fc11fbae5.html,4月份，全社会用电量4415亿千瓦时,observado_mensal,441.5,
+2015-05-01,4567.0,456.7,2015-06-15,https://www.nea.gov.cn/2015-06/15/c_134328029.htm,fontes_html/bff437272c76827de474.html,5月份，全社会用电量4567亿千瓦时,observado_mensal,456.7,
+2015-06-01,4723.0,472.3,2015-07-15,https://www.nea.gov.cn/2015-07/15/c_134414315.htm,fontes_html/83e5acc71745a3cddae0.html,6月份，全社会用电量4723亿千瓦时,observado_mensal,472.3,
+2015-07-01,5034.0,503.4,2015-08-14,https://www.nea.gov.cn/2015-08/14/c_134517626.htm,fontes_html/2b479d5c8838c3eba908.html,7月份，全社会用电量5034亿千瓦时,observado_mensal,503.4,
+2015-08-01,5124.0,512.4,2015-09-15,https://www.nea.gov.cn/2015-09/15/c_134625502.htm,fontes_html/e79ac375bb0c51eccd9f.html,8月份，全社会用电量5124亿千瓦时,observado_mensal,512.4,
+2015-09-01,4563.0,456.3,2015-10-19,https://www.nea.gov.cn/2015-10/19/c_134727170.htm,fontes_html/c3166782f7dfe850af19.html,9月份，全社会用电量4563亿千瓦时,observado_mensal,456.3,
+2015-10-01,4491.0,449.1,2015-11-16,https://www.nea.gov.cn/2015-11/16/c_134821470.htm,fontes_html/ad08e7de035ff3e42cd8.html,10月份，全社会用电量4491亿千瓦时,observado_mensal,449.1,
+2015-11-01,4658.0,465.8,2015-12-16,https://www.nea.gov.cn/2015-12/16/c_134923765.htm,fontes_html/f0ef7a24a2c4f7dd9189.html,11月份，全社会用电量4658亿千瓦时,observado_mensal,465.8,
+2015-12-01,,,,,,,nao_localizado_mensal,,Valor mensal não localizado nos boletins coletados; não significa consumo zero nem inexistência em outras bases. Há total anual separado; diferença entre publicações pode conter revisões.
+2016-01-01,4950.0,495.0,2016-03-16,https://www.nea.gov.cn/2016-03/16/c_135194541.htm,fontes_html/3eb3de571554ce24124a.html,1-2月，全国全社会用电量累计8762亿千瓦时 | 2月份，全社会用电量3812亿千瓦时,reconstituido_mesma_fonte,,"Janeiro = bimestre (8762) - fevereiro (3812), em 10^8 kWh; sujeito ao arredondamento da fonte."
+2016-02-01,3812.0,381.2,2016-03-16,https://www.nea.gov.cn/2016-03/16/c_135194541.htm,fontes_html/3eb3de571554ce24124a.html,2月份，全社会用电量3812亿千瓦时,observado_mensal,381.2,
+2016-03-01,4762.0,476.2,2016-04-15,https://www.nea.gov.cn/2016-04/15/c_135282340.htm,fontes_html/a85bd80fa46a444e8177.html,3月份，全社会用电量4762亿千瓦时,observado_mensal,476.2,
+2016-04-01,4569.0,456.9,2016-05-18,https://www.nea.gov.cn/2016-05/18/c_135367992.htm,fontes_html/88b27bb9fa73a345c225.html,4月份，全社会用电量4569亿千瓦时,observado_mensal,456.9,
+2016-05-01,4730.0,473.0,2016-06-15,https://www.nea.gov.cn/2016-06/15/c_135439051.htm,fontes_html/7ccd2078c6f695774c89.html,5月份，全社会用电量4730亿千瓦时,observado_mensal,473.0,
+2016-06-01,4925.0,492.5,2016-07-15,https://www.nea.gov.cn/2016-07/15/c_135516219.htm,fontes_html/edf013b40c4ed8427132.html,6月份，用电量4925亿千瓦时,observado_mensal,492.5,
+2016-07-01,5523.0,552.3,2016-08-16,https://www.nea.gov.cn/2016-08/16/c_135604054.htm,fontes_html/a210ac7cd9c065a70b54.html,7月份，全社会用电量5523亿千瓦时,observado_mensal,552.3,
+2016-08-01,5631.0,563.1,2016-09-18,https://www.nea.gov.cn/2016-09/18/c_135694559.htm,fontes_html/18a9aac7d79ee7d56629.html,8月份，全社会用电量5631亿千瓦时,observado_mensal,563.1,
+2016-09-01,4965.0,496.5,2016-10-17,https://www.nea.gov.cn/2016-10/17/c_135760946.htm,fontes_html/26bff2005de7de71598b.html,9月份，全社会用电量4965亿千瓦时,observado_mensal,496.5,
+2016-10-01,4890.0,489.0,2016-11-16,https://www.nea.gov.cn/2016-11/16/c_135834653.htm,fontes_html/150a4283bcffead78ae6.html,10月份，全社会用电量4890亿千瓦时,observado_mensal,489.0,
+2016-11-01,5072.0,507.2,2016-12-15,https://www.nea.gov.cn/2016-12/15/c_135907156.htm,fontes_html/67a13990bc591d0305b3.html,11月份，全社会用电量5072亿千瓦时,observado_mensal,507.2,
+2016-12-01,,,,,,,nao_localizado_mensal,,Valor mensal não localizado nos boletins coletados; não significa consumo zero nem inexistência em outras bases. Há total anual separado; diferença entre publicações pode conter revisões.
+2017-01-01,4868.0,486.8,2017-03-17,https://www.nea.gov.cn/2017-03/17/c_136136326.htm,fontes_html/535ec3670e8c20d0d8c2.html,1-2月，全国全社会用电量累计9356亿千瓦时 | 2月份，全社会用电量4488亿千瓦时,reconstituido_mesma_fonte,,"Janeiro = bimestre (9356) - fevereiro (4488), em 10^8 kWh; sujeito ao arredondamento da fonte."
+2017-02-01,4488.0,448.8,2017-03-17,https://www.nea.gov.cn/2017-03/17/c_136136326.htm,fontes_html/535ec3670e8c20d0d8c2.html,2月份，全社会用电量4488亿千瓦时,observado_mensal,448.8,
+2017-03-01,5139.0,513.9,2017-04-14,https://www.nea.gov.cn/2017-04/14/c_136209280.htm,fontes_html/2f1bbb1227902f718f06.html,3月份，全社会用电量5139亿千瓦时,observado_mensal,513.9,
+2017-04-01,4847.0,484.7,2017-05-12,https://www.nea.gov.cn/2017-05/12/c_136275968.htm,fontes_html/15150c8ba9f02d9d3b59.html,4月份，全社会用电量4847亿千瓦时,observado_mensal,484.7,
+2017-05-01,4968.0,496.8,2017-06-14,https://www.nea.gov.cn/2017-06/14/c_136365269.htm,fontes_html/bc5770e7f8fa31107815.html,5月份，全社会用电量4968亿千瓦时,observado_mensal,496.8,
+2017-06-01,5244.0,524.4,2017-07-13,https://www.nea.gov.cn/2017-07/13/c_136441228.htm,fontes_html/87d5ba0c3488188d6a97.html,6月份，全社会用电量5244亿千瓦时,observado_mensal,524.4,
+2017-07-01,6072.0,607.2,2017-08-15,https://www.nea.gov.cn/2017-08/15/c_136527396.htm,fontes_html/83a6f8817c04f07136b9.html,7月份，全社会用电量6072亿千瓦时,observado_mensal,607.2,
+2017-08-01,5991.0,599.1,2017-09-15,https://www.nea.gov.cn/2017-09/15/c_136612766.htm,fontes_html/5073387c8e57caea6d5a.html,8月份，全社会用电量5991亿千瓦时,observado_mensal,599.1,
+2017-09-01,5317.0,531.7,2017-10-13,https://www.nea.gov.cn/2017-10/13/c_136677416.htm,fontes_html/c534699f473b9f2f4737.html,9月份，全社会用电量5317亿千瓦时,observado_mensal,531.7,
+2017-10-01,5130.0,513.0,2017-11-14,https://www.nea.gov.cn/2017-11/14/c_136751789.htm,fontes_html/0b4c750ed3afb895107f.html,10月份，全社会用电量5130亿千瓦时,observado_mensal,513.0,
+2017-11-01,5310.0,531.0,2017-12-15,https://www.nea.gov.cn/2017-12/15/c_136828885.htm,fontes_html/4fb4658685c917be9874.html,11月份，全社会用电量5310亿千瓦时,observado_mensal,531.0,
+2017-12-01,,,,,,,nao_localizado_mensal,,Valor mensal não localizado nos boletins coletados; não significa consumo zero nem inexistência em outras bases. Há total anual separado; diferença entre publicações pode conter revisões.
+2018-01-01,5995.0,599.5,2018-03-20,https://www.nea.gov.cn/2018-03/20/c_137052579.htm,fontes_html/fcd7fce0b0bdc2a0d0f3.html,1-2月，全国全社会用电量累计10552亿千瓦时 | 2月份，全社会用电量4557亿千瓦时,reconstituido_mesma_fonte,,"Janeiro = bimestre (10552) - fevereiro (4557), em 10^8 kWh; sujeito ao arredondamento da fonte."
+2018-02-01,4557.0,455.7,2018-03-20,https://www.nea.gov.cn/2018-03/20/c_137052579.htm,fontes_html/fcd7fce0b0bdc2a0d0f3.html,2月份，全社会用电量4557亿千瓦时,observado_mensal,455.7,
+2018-03-01,5325.0,532.5,2018-04-13,https://www.nea.gov.cn/2018-04/13/c_137108797.htm,fontes_html/5e1b86e1834f90bfebc9.html,3月份，全社会用电量5325亿千瓦时,observado_mensal,532.5,
+2018-04-01,5217.0,521.7,2018-05-14,https://www.nea.gov.cn/2018-05/14/c_137178201.htm,fontes_html/5d47653b0e65c43137b0.html,4月份，全社会用电量5217亿千瓦时,observado_mensal,521.7,
+2018-05-01,5534.0,553.4,2018-06-20,https://www.nea.gov.cn/2018-06/20/c_137268133.htm,fontes_html/33cd27073228f779e72d.html,5月份，全社会用电量5534亿千瓦时,observado_mensal,553.4,
+2018-06-01,5663.0,566.3,2018-07-13,https://www.nea.gov.cn/2018-07/13/c_137322013.htm,fontes_html/09345a4b79db245d5d53.html,6月份，全社会用电量5663亿千瓦时,observado_mensal,566.3,
+2018-07-01,6484.0,648.4,2018-08-17,https://www.nea.gov.cn/2018-08/17/c_137398024.htm,fontes_html/601ff98e4e89e3f0d58f.html,7月份，全社会用电量6484亿千瓦时,observado_mensal,648.4,
+2018-08-01,6521.0,652.1,2018-09-18,https://www.nea.gov.cn/2018-09/18/c_137476373.htm,fontes_html/259ad1ad668de601c8b8.html,8月份，全社会用电量6521亿千瓦时,observado_mensal,652.1,
+2018-09-01,5742.0,574.2,2018-10-22,https://www.nea.gov.cn/2018-10/22/c_137550150.htm,fontes_html/dd737ae2f617537ea081.html,9月份，全社会用电量5742亿千瓦时,observado_mensal,574.2,
+2018-10-01,5481.0,548.1,2018-11-16,https://www.nea.gov.cn/2018-11/16/c_137611723.htm,fontes_html/4eef01010103fdf2b1f6.html,10月份，全社会用电量5481亿千瓦时,observado_mensal,548.1,
+2018-11-01,5647.0,564.7,2018-12-20,https://www.nea.gov.cn/2018-12/20/c_137687431.htm,fontes_html/d0ce15bff29affe01d16.html,11月份，全社会用电量5647亿千瓦时,observado_mensal,564.7,
+2018-12-01,,,,,,,nao_localizado_mensal,,Valor mensal não localizado nos boletins coletados; não significa consumo zero nem inexistência em outras bases. Há total anual separado; diferença entre publicações pode conter revisões.
+2019-01-01,6172.0,617.2,2019-03-20,https://www.nea.gov.cn/2019-03/20/c_137910037.htm,fontes_html/4b92733981d38ed17e36.html,1-2月，全社会用电量累计11063亿千瓦时 | 2月份，全社会用电量4891亿千瓦时,reconstituido_mesma_fonte,,"Janeiro = bimestre (11063) - fevereiro (4891), em 10^8 kWh; sujeito ao arredondamento da fonte."
+2019-02-01,4891.0,489.1,2019-03-20,https://www.nea.gov.cn/2019-03/20/c_137910037.htm,fontes_html/4b92733981d38ed17e36.html,2月份，全社会用电量4891亿千瓦时,observado_mensal,489.1,
+2019-03-01,5732.0,573.2,2019-04-19,https://www.nea.gov.cn/2019-04/19/c_137990693.htm,fontes_html/09092b795ca59bd44510.html,3月份，全社会用电量5732亿千瓦时,observado_mensal,573.2,
+2019-04-01,5534.0,553.4,2019-05-16,https://www.nea.gov.cn/2019-05/16/c_138063559.htm,fontes_html/2423c72ce75bca5b1c5f.html,4月份，全社会用电量5534亿千瓦时,observado_mensal,553.4,
+2019-05-01,5665.0,566.5,2019-06-14,https://www.nea.gov.cn/2019-06/14/c_138144020.htm,fontes_html/ab6ccef8b0b1e6559fe8.html,5月份，全社会用电量5665亿千瓦时,observado_mensal,566.5,
+2019-06-01,5987.0,598.7,2019-07-16,https://www.nea.gov.cn/2019-07/16/c_138231510.htm,fontes_html/42e4ea668fc45be84f1e.html,6月份，全社会用电量5987亿千瓦时,observado_mensal,598.7,
+2019-07-01,6672.0,667.2,2019-08-16,https://www.nea.gov.cn/2019-08/16/c_138313369.htm,fontes_html/b7e75470f88c54133344.html,7月份，全社会用电量6672亿千瓦时,observado_mensal,667.2,
+2019-08-01,6770.0,677.0,2019-09-18,https://www.nea.gov.cn/2019-09/18/c_138400868.htm,fontes_html/33f387f0ec9894282682.html,8月份，全社会用电量6770亿千瓦时,observado_mensal,677.0,
+2019-09-01,6020.0,602.0,2019-10-16,https://www.nea.gov.cn/2019-10/16/c_138476552.htm,fontes_html/b89f0a219240e38cf8c7.html,9月份，全社会用电量6020亿千瓦时,observado_mensal,602.0,
+2019-10-01,5790.0,579.0,2019-11-18,https://www.nea.gov.cn/2019-11/18/c_138564199.htm,fontes_html/bf7656074fff8c4cb352.html,10月份，全社会用电量5790亿千瓦时,observado_mensal,579.0,
+2019-11-01,5912.0,591.2,2019-12-20,https://www.nea.gov.cn/2019-12/20/c_138646512.htm,fontes_html/97c6fdc785cfcb401a46.html,11月份，全社会用电量5912亿千瓦时,observado_mensal,591.2,
+2019-12-01,,,,,,,nao_localizado_mensal,,Valor mensal não localizado nos boletins coletados; não significa consumo zero nem inexistência em outras bases. Há total anual separado; diferença entre publicações pode conter revisões.
+2020-01-01,5805.0,580.5,2020-03-20,https://www.nea.gov.cn/2020-03/20/c_138898634.htm,fontes_html/6d253cc0028e44e2adb5.html,1-2月，全社会用电量累计10203亿千瓦时 | 2月份，全社会用电量4398亿千瓦时,reconstituido_mesma_fonte,,"Janeiro = bimestre (10203) - fevereiro (4398), em 10^8 kWh; sujeito ao arredondamento da fonte."
+2020-02-01,4398.0,439.8,2020-03-20,https://www.nea.gov.cn/2020-03/20/c_138898634.htm,fontes_html/6d253cc0028e44e2adb5.html,2月份，全社会用电量4398亿千瓦时,observado_mensal,439.8,
+2020-03-01,5493.0,549.3,2020-04-17,https://www.nea.gov.cn/2020-04/17/c_138984241.htm,fontes_html/ad44afddbe1539c21f84.html,3月份，全社会用电量5493亿千瓦时,observado_mensal,549.3,
+2020-04-01,5572.0,557.2,2020-05-15,https://www.nea.gov.cn/2020-05/15/c_139060076.htm,fontes_html/358957d250f8547c3a82.html,4月份，全社会用电量5572亿千瓦时,observado_mensal,557.2,
+2020-05-01,5926.0,592.6,2020-06-19,https://www.nea.gov.cn/2020-06/19/c_139150749.htm,fontes_html/88c9f1012fc5a06cb3dd.html,5月份，全社会用电量5926亿千瓦时,observado_mensal,592.6,
+2020-06-01,6350.0,635.0,2020-07-13,https://www.nea.gov.cn/2020-07/13/c_139209401.htm,fontes_html/94fc5a24bb5e578fd7f6.html,6月份，全社会用电量6350亿千瓦时,observado_mensal,635.0,
+2020-07-01,6824.0,682.4,2020-08-13,https://www.nea.gov.cn/2020-08/13/c_139287159.htm,fontes_html/9c29f763fd79e4f5e261.html,7月份，全社会用电量6824亿千瓦时,observado_mensal,682.4,
+2020-08-01,7294.0,729.4,2020-09-14,https://www.nea.gov.cn/2020-09/14/c_139367363.htm,fontes_html/01614f2a39f93653c047.html,8月份，全社会用电量7294亿千瓦时,observado_mensal,729.4,
+2020-09-01,6454.0,645.4,2020-10-16,https://www.nea.gov.cn/2020-10/16/c_139444629.htm,fontes_html/16d3d6c0737839af4ee7.html,9月份，全社会用电量6454亿千瓦时,observado_mensal,645.4,
+2020-10-01,6172.0,617.2,2020-11-13,https://www.nea.gov.cn/2020-11/13/c_139513791.htm,fontes_html/a2b2b0969e4e4b6dfad7.html,10月份，全社会用电量6172亿千瓦时,observado_mensal,617.2,
+2020-11-01,6467.0,646.7,2020-12-14,https://www.nea.gov.cn/2020-12/14/c_139588917.htm,fontes_html/aa0b35a07b70aca9b3ed.html,11月份，全社会用电量6467亿千瓦时,observado_mensal,646.7,
+2020-12-01,,,,,,,nao_localizado_mensal,,Valor mensal não localizado nos boletins coletados; não significa consumo zero nem inexistência em outras bases. Há total anual separado; diferença entre publicações pode conter revisões.
+2021-01-01,7324.0,732.4,2021-03-12,https://www.nea.gov.cn/2021-03/12/c_139805948.htm,fontes_html/34dbc836251649a1be1a.html,1-2月，全社会用电量累计12588亿千瓦时 | 2月份，全社会用电量5264亿千瓦时,reconstituido_mesma_fonte,,"Janeiro = bimestre (12588) - fevereiro (5264), em 10^8 kWh; sujeito ao arredondamento da fonte."
+2021-02-01,5264.0,526.4,2021-03-12,https://www.nea.gov.cn/2021-03/12/c_139805948.htm,fontes_html/34dbc836251649a1be1a.html,2月份，全社会用电量5264亿千瓦时,observado_mensal,526.4,
+2021-03-01,6631.0,663.1,2021-04-14,https://www.nea.gov.cn/2021-04/14/c_139880514.htm,fontes_html/bf6d4f94e019ee746f07.html,3月份，全社会用电量6631亿千瓦时,observado_mensal,663.1,
+2021-04-01,6361.0,636.1,2021-05-14,https://www.nea.gov.cn/2021-05/14/c_139944668.htm,fontes_html/d90183624fe1fbc0956a.html,4月份，全社会用电量6361亿千瓦时,observado_mensal,636.1,
+2021-05-01,6724.0,672.4,2021-06-15,https://www.nea.gov.cn/2021-06/15/c_1310009338.htm,fontes_html/36c1402d86e5c07c53f2.html,5月份，我国经济持续稳定恢复，全社会用电量持续快速增长，达到6724亿千瓦时,observado_mensal,672.4,
+2021-06-01,7033.0,703.3,2021-07-14,https://www.nea.gov.cn/2021-07/14/c_1310060966.htm,fontes_html/64a4404772c2227feb27.html,6月份，我国经济保持稳定恢复，全社会用电量持续增长，达到7033亿千瓦时,observado_mensal,703.3,
+2021-07-01,7758.0,775.8,2021-08-12,https://www.nea.gov.cn/2021-08/12/c_1310122831.htm,fontes_html/2e6a734f7ca0269c3636.html,7月份，我国经济持续稳定恢复，全社会用电量持续增长，达到7758亿千瓦时,observado_mensal,775.8,
+2021-08-01,7607.0,760.7,2021-09-14,https://www.nea.gov.cn/2021-09/14/c_1310187100.htm,fontes_html/3ee190b0608c2e4a6f60.html,8月份，我国经济持续稳定恢复，全社会用电量持续增长，达到7607亿千瓦时,observado_mensal,760.7,
+2021-09-01,6947.0,694.7,2021-10-13,https://www.nea.gov.cn/2021-10/13/c_1310241476.htm,fontes_html/e1d624ab03890092ac5c.html,9月份，我国经济持续稳定恢复，全社会用电量持续增长，达到6947亿千瓦时,observado_mensal,694.7,
+2021-10-01,6603.0,660.3,2021-11-12,https://www.nea.gov.cn/2021-11/12/c_1310307186.htm,fontes_html/8a480c3e051828774be7.html,10月份，我国经济持续稳定恢复，全社会用电量持续增长，达到6603亿千瓦时,observado_mensal,660.3,
+2021-11-01,6718.0,671.8,2021-12-16,https://www.nea.gov.cn/2021-12/16/c_1310376351.htm,fontes_html/9a11543b878a7d74ccb8.html,11月份，我国经济持续稳定恢复，全社会用电量持续增长，达到6718亿千瓦时,observado_mensal,671.8,
+2021-12-01,,,,,,,nao_localizado_mensal,,Valor mensal não localizado nos boletins coletados; não significa consumo zero nem inexistência em outras bases. Há total anual separado; diferença entre publicações pode conter revisões.
+2022-01-01,7232.0,723.2,2022-03-15,https://www.nea.gov.cn/2022-03/15/c_1310514668.htm,fontes_html/832dddd13f5c38617783.html,1—2月，全社会用电量累计13467亿千瓦时 | 2月份，我国经济持续稳定恢复，全社会用电量持续增长，达到6235亿千瓦时,reconstituido_mesma_fonte,,"Janeiro = bimestre (13467) - fevereiro (6235), em 10^8 kWh; sujeito ao arredondamento da fonte."
+2022-02-01,6235.0,623.5,2022-03-15,https://www.nea.gov.cn/2022-03/15/c_1310514668.htm,fontes_html/832dddd13f5c38617783.html,2月份，我国经济持续稳定恢复，全社会用电量持续增长，达到6235亿千瓦时,observado_mensal,623.5,
+2022-03-01,6944.0,694.4,2022-04-14,https://www.nea.gov.cn/2022-04/14/c_1310557516.htm,fontes_html/ea9ecc91d6a38f0310f8.html,3月份，我国经济持续稳定恢复，全社会用电量持续增长，达到6944亿千瓦时,observado_mensal,694.4,
+2022-04-01,6362.0,636.2,2022-05-16,https://www.nea.gov.cn/2022-05/16/c_1310594831.htm,fontes_html/a4d28ce035294546bac4.html,4月份，全社会用电量6362亿千瓦时,observado_mensal,636.2,
+2022-05-01,6716.0,671.6,2022-06-15,https://www.nea.gov.cn/2022-06/15/c_1310623336.htm,fontes_html/604d9e87aa8541d6f943.html,5月份，全社会用电量6716亿千瓦时,observado_mensal,671.6,
+2022-06-01,7451.0,745.1,2022-07-14,https://www.nea.gov.cn/2022-07/14/c_1310641690.htm,fontes_html/9b6731b21d572e2f4618.html,6月份，全社会用电量7451亿千瓦时,observado_mensal,745.1,
+2022-07-01,8324.0,832.4,2022-08-12,https://www.nea.gov.cn/2022-08/12/c_1310651984.htm,fontes_html/22c81115c58eb488da81.html,7月份，全社会用电量8324亿千瓦时,observado_mensal,832.4,
+2022-08-01,8520.0,852.0,2022-09-15,https://www.nea.gov.cn/2022-09/15/c_1310663044.htm,fontes_html/610653f8da6e36c3a17f.html,8月份，全社会用电量8520亿千瓦时,observado_mensal,852.0,
+2022-09-01,7092.0,709.2,2022-10-13,https://www.nea.gov.cn/2022-10/13/c_1310669666.htm,fontes_html/8c9dae2c386d7b174a7f.html,9月份，全社会用电量7092亿千瓦时,observado_mensal,709.2,
+2022-10-01,6834.0,683.4,2022-11-14,https://www.nea.gov.cn/2022-11/14/c_1310676596.htm,fontes_html/e3b79531a7da8e29b88e.html,10月份，全社会用电量6834亿千瓦时,observado_mensal,683.4,
+2022-11-01,6828.0,682.8,2022-12-15,https://www.nea.gov.cn/2022-12/15/c_1310684089.htm,fontes_html/09c4f735dd26c0db538e.html,11月份，全社会用电量6828亿千瓦时,observado_mensal,682.8,
+2022-12-01,,,,,,,nao_localizado_mensal,,Valor mensal não localizado nos boletins coletados; não significa consumo zero nem inexistência em outras bases. Há total anual separado; diferença entre publicações pode conter revisões.
+2023-01-01,6884.0,688.4,2023-03-16,https://www.nea.gov.cn/2023-03/16/c_1310702980.htm,fontes_html/dc3748f0df09643cf344.html,1~2月，全社会用电量累计13834亿千瓦时 | 2月份，全社会用电量6950亿千瓦时,reconstituido_mesma_fonte,,"Janeiro = bimestre (13834) - fevereiro (6950), em 10^8 kWh; sujeito ao arredondamento da fonte."
+2023-02-01,6950.0,695.0,2023-03-16,https://www.nea.gov.cn/2023-03/16/c_1310702980.htm,fontes_html/dc3748f0df09643cf344.html,2月份，全社会用电量6950亿千瓦时,observado_mensal,695.0,
+2023-03-01,7369.0,736.9,2023-04-14,https://www.nea.gov.cn/2023-04/14/c_1310710757.htm,fontes_html/e7dcfddb299510e615b4.html,3月份，全社会用电量7369亿千瓦时,observado_mensal,736.9,
+2023-04-01,6901.0,690.1,2023-05-15,https://www.nea.gov.cn/2023-05/15/c_1310718974.htm,fontes_html/ce6af6c845565b999678.html,4月份，全社会用电量6901亿千瓦时,observado_mensal,690.1,
+2023-05-01,7222.0,722.2,2023-06-16,https://obor.nea.gov.cn/detail/19346.html,fontes_html/2e6389e23b0e6a769c33.html,5月份，全社会用电量7222亿千瓦时,observado_mensal,722.2,Número atribuído à NEA em republicação do People's Daily no portal de cooperação energética da NEA.
+2023-06-01,7751.0,775.1,2023-07-13,https://www.nea.gov.cn/2023-07/13/c_1310732362.htm,fontes_html/88555cbb82435b6b466e.html,6月份，全社会用电量7751亿千瓦时,observado_mensal,775.1,
+2023-07-01,8888.0,888.8,2023-08-14,https://www.nea.gov.cn/2023-08/14/c_1310736871.htm,fontes_html/d381d2c88c00f5d2f218.html,7月份，全社会用电量8888亿千瓦时,observado_mensal,888.8,
+2023-08-01,8861.0,886.1,2023-09-14,https://www.nea.gov.cn/2023-09/14/c_1310741272.htm,fontes_html/93ae882b8209e61cc991.html,8月份，全社会用电量8861亿千瓦时,observado_mensal,886.1,
+2023-09-01,7811.0,781.1,2023-10-16,https://www.nea.gov.cn/2023-10/16/c_1310745454.htm,fontes_html/2576fcd1e32079cc238e.html,9月份，全社会用电量7811亿千瓦时,observado_mensal,781.1,
+2023-10-01,7419.0,741.9,2023-11-15,https://www.nea.gov.cn/2023-11/15/c_1310750688.htm,fontes_html/bb2545438a92922c02bf.html,10月份，全社会用电量7419亿千瓦时,observado_mensal,741.9,
+2023-11-01,7630.0,763.0,2023-12-15,https://www.nea.gov.cn/2023-12/15/c_1310755543.htm,fontes_html/50fe4f934bfca2b7ae53.html,11月份，全社会用电量7630亿千瓦时,observado_mensal,763.0,
+2023-12-01,,,,,,,nao_localizado_mensal,,Valor mensal não localizado nos boletins coletados; não significa consumo zero nem inexistência em outras bases. Há total anual separado; diferença entre publicações pode conter revisões.
+2024-01-01,,,,,,,nao_localizado_mensal,,"Boletim divulga apenas janeiro–fevereiro: 1531,6 TWh; divisão mensal não identificada nesta coleta."
+2024-02-01,,,,,,,nao_localizado_mensal,,"Boletim divulga apenas janeiro–fevereiro: 1531,6 TWh; divisão mensal não identificada nesta coleta."
+2024-03-01,7942.0,794.2,2024-04-17,https://www.nea.gov.cn/2024-04/17/c_1310771602.htm,fontes_html/2732823f5ba7a089599b.html,3月份，全社会用电量7942亿千瓦时,observado_mensal,794.2,
+2024-04-01,7412.0,741.2,2024-05-17,https://www.nea.gov.cn/2024-05/17/c_1212363227.htm,fontes_html/5a3f84ec5078f72ee130.html,4月份，全社会用电量7412亿千瓦时,observado_mensal,741.2,
+2024-05-01,7751.0,775.1,2024-06-20,https://www.nea.gov.cn/2024-06/20/c_1310779060.htm,fontes_html/792431b4744d309fa34a.html,5月份，全社会用电量7751亿千瓦时,observado_mensal,775.1,
+2024-06-01,8205.0,820.5,2024-07-19,https://www.nea.gov.cn/2024-07/19/c_1310782234.htm,fontes_html/048f31195fb943d6d1f1.html,6月份，全社会用电量8205亿千瓦时,observado_mensal,820.5,
+2024-07-01,9396.0,939.6,2024-08-22,https://www.nea.gov.cn/2024-08/22/c_1310785024.htm,fontes_html/8659e953c984e35ef7ed.html,7月份，全社会用电量9396亿千瓦时,observado_mensal,939.6,
+2024-08-01,9649.0,964.9,2024-09-20,https://www.nea.gov.cn/2024-09/20/c_1212399358.htm,fontes_html/c2a762b521afba14e113.html,8月份，全社会用电量9649亿千瓦时,observado_mensal,964.9,
+2024-09-01,8475.0,847.5,2024-10-19,https://www.nea.gov.cn/2024-10/19/c_1212405503.htm,fontes_html/e7566e8a12f887459db9.html,9月份，全社会用电量8475亿千瓦时,observado_mensal,847.5,
+2024-10-01,7742.0,774.2,2024-11-20,https://www.nea.gov.cn/2024-11/20/c_1310787334.htm,fontes_html/c43edbeed251bcac529a.html,10月份，全社会用电量7742亿千瓦时,observado_mensal,774.2,
+2024-11-01,7849.0,784.9,2024-12-19,https://www.nea.gov.cn/20241219/4130c6eff80341cca0b06da153624bfa/c.html,fontes_html/5f55438eb59807959e9d.html,11月份，全社会用电量7849亿千瓦时,observado_mensal,784.9,
+2024-12-01,,,,,,,nao_localizado_mensal,,Valor mensal não localizado nos boletins coletados; não significa consumo zero nem inexistência em outras bases. Há total anual separado; diferença entre publicações pode conter revisões.

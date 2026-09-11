@@ -1,0 +1,786 @@
+[
+  {
+    "url": "https://www.nea.gov.cn/2024-11/20/c_1310787334.htm",
+    "arquivo": "fontes_html/c43edbeed251bcac529a.html",
+    "sha256": "8770dcd74df971eea749c6f4b4401c623b1a55a6b4a4043f31e7eb79ee832e7c",
+    "titulo": "2024年10月份全社会用电量同比增长4.3%",
+    "coleta_utc": "2026-09-10T16:43:02.224878+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2024-10/19/c_1212405503.htm",
+    "arquivo": "fontes_html/e7566e8a12f887459db9.html",
+    "sha256": "f34fc3eafbaa1cb673a0adb8428f560f69fec3a11e55392df89cf0d5e57fff92",
+    "titulo": "2024年9月份全社会用电量同比增长8.5%",
+    "coleta_utc": "2026-09-10T16:43:02.225194+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2024-09/20/c_1212399358.htm",
+    "arquivo": "fontes_html/c2a762b521afba14e113.html",
+    "sha256": "8c5507069f64a7b59be95c79be75fdf6bcdcd21c7dfeb01a588c526d78e61f9f",
+    "titulo": "2024年8月份全社会用电量同比增长8.9%",
+    "coleta_utc": "2026-09-10T16:43:02.225200+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2024-08/22/c_1310785024.htm",
+    "arquivo": "fontes_html/8659e953c984e35ef7ed.html",
+    "sha256": "d9c72210bff5849e2c50c137a37436385560871a3fcf329364dc74785864f84f",
+    "titulo": "2024年7月份全社会用电量同比增长5.7%",
+    "coleta_utc": "2026-09-10T16:43:02.225202+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2024-07/19/c_1310782234.htm",
+    "arquivo": "fontes_html/048f31195fb943d6d1f1.html",
+    "sha256": "0f46b4c0f76e6d57363d029acd558096fb6863c4318bbb793dbfe551b0cd6d46",
+    "titulo": "2024年6月份全社会用电量同比增长5.8%",
+    "coleta_utc": "2026-09-10T16:43:02.225270+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2024-06/20/c_1310779060.htm",
+    "arquivo": "fontes_html/792431b4744d309fa34a.html",
+    "sha256": "a748f9f424e57c962486a5b8d7953e71450e59e3dd6c03d30bb45a90dea3cb61",
+    "titulo": "5月份全社会用电量同比增长7.2%",
+    "coleta_utc": "2026-09-10T16:43:02.225373+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2024-05/17/c_1212363227.htm",
+    "arquivo": "fontes_html/5a3f84ec5078f72ee130.html",
+    "sha256": "afa1b0005bd8ae5bc003583abd47dfca7f13d64d51e6aade9159bdebacf2c86c",
+    "titulo": "4月份全社会用电量同比增长7.0%",
+    "coleta_utc": "2026-09-10T16:43:02.225376+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2024-04/17/c_1310771602.htm",
+    "arquivo": "fontes_html/2732823f5ba7a089599b.html",
+    "sha256": "c9fff1b16a9e37214302d9dd00c5d0ec004566b03ff71a8bdab751ae4366f1d1",
+    "titulo": "3月份全社会用电量同比增长7.4%",
+    "coleta_utc": "2026-09-10T16:43:02.225451+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2024-03/20/c_1310768302.htm",
+    "arquivo": "fontes_html/2f9e9e70c51f9ceae66b.html",
+    "sha256": "7eb54ea5f093b3c7bf456ccdcb8bc3eabdb4818b3812319992224eb5f920143c",
+    "titulo": "1～2月全社会用电量同比增长11.0%",
+    "coleta_utc": "2026-09-10T16:43:02.225453+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2024-01/18/c_1310760885.htm",
+    "arquivo": "fontes_html/88e17da7b605a8ea8cd3.html",
+    "sha256": "ab0ae6b0503fe8981ce3c4a4ca129979959152b417b1fdd4dd9a13679433dce8",
+    "titulo": "2023年全社会用电量同比增长6.7%",
+    "coleta_utc": "2026-09-10T16:43:02.225762+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2023-12/15/c_1310755543.htm",
+    "arquivo": "fontes_html/50fe4f934bfca2b7ae53.html",
+    "sha256": "9f12b3d2ca13373d66583e095101abb6a9ea9983d6f43223dba7204dede9bbf8",
+    "titulo": "11月份全社会用电量同比增长11.6%",
+    "coleta_utc": "2026-09-10T16:43:02.225766+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2023-11/15/c_1310750688.htm",
+    "arquivo": "fontes_html/bb2545438a92922c02bf.html",
+    "sha256": "3e906fb5a05403ac9e383a9707883a0b8b47df18ac13140aa6961647c0b8a2a4",
+    "titulo": "10月份全社会用电量同比增长8.4%",
+    "coleta_utc": "2026-09-10T16:43:02.225768+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2023-10/16/c_1310745454.htm",
+    "arquivo": "fontes_html/2576fcd1e32079cc238e.html",
+    "sha256": "4134f33fbd5b94ab6153adfba52204d88a1f7694972eea12f69100d212a35ade",
+    "titulo": "9月份全社会用电量同比增长9.9%",
+    "coleta_utc": "2026-09-10T16:43:02.225770+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2023-09/14/c_1310741272.htm",
+    "arquivo": "fontes_html/93ae882b8209e61cc991.html",
+    "sha256": "3d5381dc8e02f39fa11025edb531903bf6cd7243be0b0d70ac90e0c4b96db054",
+    "titulo": "8月份全社会用电量同比增长3.9%",
+    "coleta_utc": "2026-09-10T16:43:02.225939+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2023-08/14/c_1310736871.htm",
+    "arquivo": "fontes_html/d381d2c88c00f5d2f218.html",
+    "sha256": "b96dbe06d8fc73581466728226314fe0b40d216c728f18d0c05be5ddb54ecf40",
+    "titulo": "7月份全社会用电量同比增长6.5%",
+    "coleta_utc": "2026-09-10T16:43:02.225942+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2023-07/13/c_1310732362.htm",
+    "arquivo": "fontes_html/88555cbb82435b6b466e.html",
+    "sha256": "721ed043357ce1a3f71f4de49d72a92b2f48dafbc24d314f54f72f5fb05e9bc5",
+    "titulo": "6月份全社会用电量同比增长3.9%",
+    "coleta_utc": "2026-09-10T16:43:02.225993+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2023-05/15/c_1310718974.htm",
+    "arquivo": "fontes_html/ce6af6c845565b999678.html",
+    "sha256": "7b6d0eeedf6d19588ba6c2c7133d9d85c7c508c65deb3f2bee8e3b3b13642a23",
+    "titulo": "4月份全社会用电量同比增长8.3%",
+    "coleta_utc": "2026-09-10T16:43:02.225999+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2023-04/14/c_1310710757.htm",
+    "arquivo": "fontes_html/e7dcfddb299510e615b4.html",
+    "sha256": "9f9e5c6a80aa49fc9e3e112c47eb2399f835186f89c0449f76795da136b9ee3b",
+    "titulo": "3月份全社会用电量同比增长5.9%",
+    "coleta_utc": "2026-09-10T16:43:02.226107+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2023-03/16/c_1310702980.htm",
+    "arquivo": "fontes_html/dc3748f0df09643cf344.html",
+    "sha256": "5f47366c99d9aa63bdd9521b561fb5edb216855e6715699f517338f0fac2548e",
+    "titulo": "2月份全社会用电量同比增长11.0%",
+    "coleta_utc": "2026-09-10T16:43:02.226110+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2023-01/18/c_1310691508.htm",
+    "arquivo": "fontes_html/2cc5b36ab0d1bbc5fa38.html",
+    "sha256": "3577320506132a7ae80610e0ab0015eb678c0a9434eb882eef2f5ce4ec8dc7bb",
+    "titulo": "2022年全社会用电量同比增长3.6%",
+    "coleta_utc": "2026-09-10T16:43:02.226352+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2022-12/15/c_1310684089.htm",
+    "arquivo": "fontes_html/09c4f735dd26c0db538e.html",
+    "sha256": "5c2e7a29811f063ba486d6a22a7647a60d91bcab614eeb114c3f9a7f55e7cc27",
+    "titulo": "1~11月全社会用电量同比增长3.5%",
+    "coleta_utc": "2026-09-10T16:43:02.226354+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2022-11/14/c_1310676596.htm",
+    "arquivo": "fontes_html/e3b79531a7da8e29b88e.html",
+    "sha256": "34dbf093e475c25d0ceace1f0ff0106af9bf04558ecc3e8240f577474da803c4",
+    "titulo": "1~10月全社会用电量同比增长3.8%",
+    "coleta_utc": "2026-09-10T16:43:02.226356+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2022-10/13/c_1310669666.htm",
+    "arquivo": "fontes_html/8c9dae2c386d7b174a7f.html",
+    "sha256": "f02bfef3c92d4598780b1824b203b7e492ec236dd2891e840e4c947e8d09880d",
+    "titulo": "1~9月全社会用电量同比增长4.0%",
+    "coleta_utc": "2026-09-10T16:43:02.226358+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2022-09/15/c_1310663044.htm",
+    "arquivo": "fontes_html/610653f8da6e36c3a17f.html",
+    "sha256": "43e7636b4a40e549953d06f57ba4aaa408acee9c58476e44ce9be6319365183f",
+    "titulo": "1~8月全社会用电量同比增长4.4%",
+    "coleta_utc": "2026-09-10T16:43:02.226360+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2022-08/12/c_1310651984.htm",
+    "arquivo": "fontes_html/22c81115c58eb488da81.html",
+    "sha256": "a621d8b68b0f5642d399f1e82fc5301c28c61ade121013074a1d6a41d90dfc0b",
+    "titulo": "1~7月全社会用电量同比增长3.4%",
+    "coleta_utc": "2026-09-10T16:43:02.226433+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2022-07/14/c_1310641690.htm",
+    "arquivo": "fontes_html/9b6731b21d572e2f4618.html",
+    "sha256": "94f6a55547e9fbd7a2749b962b72fa37c43b17e0f96d92d61f308cf8bf6b28df",
+    "titulo": "1~6月全社会用电量同比增长2.9%",
+    "coleta_utc": "2026-09-10T16:43:02.226562+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2022-06/15/c_1310623336.htm",
+    "arquivo": "fontes_html/604d9e87aa8541d6f943.html",
+    "sha256": "4a8467e27df4dd2c2b8987d74a74e65e816fa3428b96d6062fe3ab8af8bc9776",
+    "titulo": "1~5月全社会用电量同比增长2.5%",
+    "coleta_utc": "2026-09-10T16:43:02.226564+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2022-04/14/c_1310557516.htm",
+    "arquivo": "fontes_html/ea9ecc91d6a38f0310f8.html",
+    "sha256": "290ed3d4efef4ac470c505d6dd2a52eb6121d3eb6ff8a75cfb90f818b8c775e8",
+    "titulo": "3月份全社会用电量同比增长3.5%",
+    "coleta_utc": "2026-09-10T16:43:02.226680+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2022-03/15/c_1310514668.htm",
+    "arquivo": "fontes_html/832dddd13f5c38617783.html",
+    "sha256": "7a3780eba97e106efe97346511d49636d41b9702a2b8e2aeb4072b7bb4ab18f3",
+    "titulo": "2月份全社会用电量同比增长16.9%",
+    "coleta_utc": "2026-09-10T16:43:02.226684+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2022-01/17/c_1310427282.htm",
+    "arquivo": "fontes_html/4a01b65c2bc5a49ad94a.html",
+    "sha256": "dcc7830ec2dbee4db6303ee3ba1587208188ff191eedd04874d79a501365a53d",
+    "titulo": "2021年全社会用电量同比增长10.3%",
+    "coleta_utc": "2026-09-10T16:43:02.226686+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2021-12/16/c_1310376351.htm",
+    "arquivo": "fontes_html/9a11543b878a7d74ccb8.html",
+    "sha256": "898f21d07caca5303dbeeb7ecb1dff57ffa7ec99f3ea21a891ce2292ce438e83",
+    "titulo": "11月份全社会用电量同比增长3.1%",
+    "coleta_utc": "2026-09-10T16:43:02.226753+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2021-11/12/c_1310307186.htm",
+    "arquivo": "fontes_html/8a480c3e051828774be7.html",
+    "sha256": "4c3b515c175d15e2d1d50679ac8c997252a00b3ef1d263b02c6d56cf62613870",
+    "titulo": "10月份全社会用电量同比增长6.1%",
+    "coleta_utc": "2026-09-10T16:43:02.226919+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2021-10/13/c_1310241476.htm",
+    "arquivo": "fontes_html/e1d624ab03890092ac5c.html",
+    "sha256": "bea8c7f5f8e0c4294e6539ca86cc5bd6cea55aac6cab1d1ee5e396d7ab317581",
+    "titulo": "9月份全社会用电量同比增长6.8%",
+    "coleta_utc": "2026-09-10T16:43:02.226922+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2021-09/14/c_1310187100.htm",
+    "arquivo": "fontes_html/3ee190b0608c2e4a6f60.html",
+    "sha256": "bf87539267d8b12c8025ca6c11e12f645072c9d7282d0ba204efaa61023cd630",
+    "titulo": "8月份全社会用电量同比增长3.6%",
+    "coleta_utc": "2026-09-10T16:43:02.226924+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2021-08/12/c_1310122831.htm",
+    "arquivo": "fontes_html/2e6a734f7ca0269c3636.html",
+    "sha256": "a72bacfcd3341f0129e32bb5672e06e0dfefe6aae130837a94e1740db8b9f3f6",
+    "titulo": "7月份全社会用电量同比增长12.8%",
+    "coleta_utc": "2026-09-10T16:43:02.227019+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2021-07/14/c_1310060966.htm",
+    "arquivo": "fontes_html/64a4404772c2227feb27.html",
+    "sha256": "5c9bac28a340a50e9aa36b36fd9b58fb8fc1623c318c63ba6baa7f6dca6c140c",
+    "titulo": "6月份全社会用电量同比增长9.8%",
+    "coleta_utc": "2026-09-10T16:43:02.227022+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2021-06/15/c_1310009338.htm",
+    "arquivo": "fontes_html/36c1402d86e5c07c53f2.html",
+    "sha256": "6d8824e35815ba60b67f8ae9e7b5b6aa2b10f904448588ba67c3448c621e26fb",
+    "titulo": "5月份全社会用电量同比增长12.5%",
+    "coleta_utc": "2026-09-10T16:43:02.227069+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2021-05/14/c_139944668.htm",
+    "arquivo": "fontes_html/d90183624fe1fbc0956a.html",
+    "sha256": "1b879eb087689b4eb3451065126eaae413450d10bf1436cc5ed01dc90853e5dd",
+    "titulo": "4月份全社会用电量同比增长13.2%",
+    "coleta_utc": "2026-09-10T16:43:02.227164+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2021-04/14/c_139880514.htm",
+    "arquivo": "fontes_html/bf6d4f94e019ee746f07.html",
+    "sha256": "1f2376fb3c17b41bf90d3718e12ee1f8b59b7be26cf2b99e54de5e247ddf30d8",
+    "titulo": "3月份全社会用电量同比增长19.4%",
+    "coleta_utc": "2026-09-10T16:43:02.227167+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2021-03/12/c_139805948.htm",
+    "arquivo": "fontes_html/34dbc836251649a1be1a.html",
+    "sha256": "ae62a1618db35f5361afbef39095fa94525da63f438e95dd994199e80b825be7",
+    "titulo": "2月份全社会用电量同比增长18.5%",
+    "coleta_utc": "2026-09-10T16:43:02.227216+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2021-01/20/c_139682386.htm",
+    "arquivo": "fontes_html/609f9fcea501d46bb5a7.html",
+    "sha256": "b3453ee40ee1ed27280bf4b3038a0b18cce805ef6d9d621312edb7c3686dfa38",
+    "titulo": "2020年全社会用电量同比增长3.1%",
+    "coleta_utc": "2026-09-10T16:43:02.227317+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2020-12/14/c_139588917.htm",
+    "arquivo": "fontes_html/aa0b35a07b70aca9b3ed.html",
+    "sha256": "7a8d34a56914252e3574ba4bbc701d3eee8b3d9beb0a68732094c923fe5ef49f",
+    "titulo": "11月份全社会用电量同比增长9.4%",
+    "coleta_utc": "2026-09-10T16:43:02.227319+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2020-11/13/c_139513791.htm",
+    "arquivo": "fontes_html/a2b2b0969e4e4b6dfad7.html",
+    "sha256": "8957aa616f960cac64fb46e7705d30417543c710fba655e1997ff3cc6fefd5e8",
+    "titulo": "10月份全社会用电量同比增长6.6%",
+    "coleta_utc": "2026-09-10T16:43:02.227435+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2020-10/16/c_139444629.htm",
+    "arquivo": "fontes_html/16d3d6c0737839af4ee7.html",
+    "sha256": "f6be134be622e13fad0c21245b7db2e3f994fb5901bd76868002dd522a9eec39",
+    "titulo": "9月份全社会用电量同比增长7.2%",
+    "coleta_utc": "2026-09-10T16:43:02.227437+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2020-09/14/c_139367363.htm",
+    "arquivo": "fontes_html/01614f2a39f93653c047.html",
+    "sha256": "9675e0abd3e661cf2ae30816f889190443a049aab0c5c9a360f63a0a123f62f6",
+    "titulo": "8月份全社会用电量同比增长7.7%",
+    "coleta_utc": "2026-09-10T16:43:02.227632+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2020-08/13/c_139287159.htm",
+    "arquivo": "fontes_html/9c29f763fd79e4f5e261.html",
+    "sha256": "be1c1fd4a67631d569f2cc9dd1780136470b41a7e98a20cec339b0f1e285fb31",
+    "titulo": "国家能源局发布7月份全社会用电量",
+    "coleta_utc": "2026-09-10T16:43:02.227638+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2020-07/13/c_139209401.htm",
+    "arquivo": "fontes_html/94fc5a24bb5e578fd7f6.html",
+    "sha256": "f24f214c91f0321946fd54cea18c1c2e91ce9be71556c6827f09d794d10ff01d",
+    "titulo": "6月份全社会用电量同比增长6.1%",
+    "coleta_utc": "2026-09-10T16:43:02.227640+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2020-06/19/c_139150749.htm",
+    "arquivo": "fontes_html/88c9f1012fc5a06cb3dd.html",
+    "sha256": "9d30f5c2b53096d95bebb70f60a6e5f8f03f666a98cc481f9f4a9a3f12baed17",
+    "titulo": "国家能源局发布5月份全社会用电量",
+    "coleta_utc": "2026-09-10T16:43:02.227723+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2020-05/15/c_139060076.htm",
+    "arquivo": "fontes_html/358957d250f8547c3a82.html",
+    "sha256": "42e22f23b4f7d9d745516af767651a062ab21171eef9d8dd14f8cddf13862b50",
+    "titulo": "国家能源局发布4月份全社会用电量",
+    "coleta_utc": "2026-09-10T16:43:02.227726+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2020-04/17/c_138984241.htm",
+    "arquivo": "fontes_html/ad44afddbe1539c21f84.html",
+    "sha256": "a7c1985ea653f41dfec8ce4421df2edcd45852228738fb3da9d9ea3ddd17798c",
+    "titulo": "国家能源局发布3月份全社会用电量",
+    "coleta_utc": "2026-09-10T16:43:02.227842+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2020-03/20/c_138898634.htm",
+    "arquivo": "fontes_html/6d253cc0028e44e2adb5.html",
+    "sha256": "603e2a9bdb089f16297a34e6c6d35d907b7ec723eb0bd95edd260f6db15f5932",
+    "titulo": "国家能源局发布2月份全社会用电量",
+    "coleta_utc": "2026-09-10T16:43:02.227917+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2020-01/20/c_138720877.htm",
+    "arquivo": "fontes_html/c1a56454b4b4221598b1.html",
+    "sha256": "ab173ce7904106f8535569ea59f11a12fe896c61a15373d130cf2ea6307873a8",
+    "titulo": "国家能源局发布2019年全社会用电量",
+    "coleta_utc": "2026-09-10T16:43:02.227995+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2019-12/20/c_138646512.htm",
+    "arquivo": "fontes_html/97c6fdc785cfcb401a46.html",
+    "sha256": "a805204007e1e0f0060d939ec527b7c61fb294c6e88c605aeb2fe155273b3168",
+    "titulo": "国家能源局发布1—11月份全社会用电量",
+    "coleta_utc": "2026-09-10T16:43:02.227997+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2019-11/18/c_138564199.htm",
+    "arquivo": "fontes_html/bf7656074fff8c4cb352.html",
+    "sha256": "840f09ac28d9e80560866ce078792311f415ce8d7be55de77a8d9d4e34b15b9f",
+    "titulo": "国家能源局发布10月份全社会用电量",
+    "coleta_utc": "2026-09-10T16:43:02.228099+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2019-10/16/c_138476552.htm",
+    "arquivo": "fontes_html/b89f0a219240e38cf8c7.html",
+    "sha256": "b28204541deefd039d6ecaf14ad54959b7240f01fbccd7a02b699139748824e8",
+    "titulo": "国家能源局发布9月份全社会用电量",
+    "coleta_utc": "2026-09-10T16:43:02.228102+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2019-09/18/c_138400868.htm",
+    "arquivo": "fontes_html/33f387f0ec9894282682.html",
+    "sha256": "e55d1081943a8d430009c9769df5fdfdb1e8f71bf6a54895ff06710561bce5c2",
+    "titulo": "国家能源局发布8月份全社会用电量",
+    "coleta_utc": "2026-09-10T16:43:02.228198+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2019-08/16/c_138313369.htm",
+    "arquivo": "fontes_html/b7e75470f88c54133344.html",
+    "sha256": "45bca2a34d0499f4dfa712350470d736120bdb5495a264e1435d1988c2892bc0",
+    "titulo": "国家能源局发布7月份全社会用电量",
+    "coleta_utc": "2026-09-10T16:43:02.228202+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2019-07/16/c_138231510.htm",
+    "arquivo": "fontes_html/42e4ea668fc45be84f1e.html",
+    "sha256": "2421b27ca85b2ca68e1005cbd7c36421379eb25003b823906a93e9c804c800af",
+    "titulo": "国家能源局发布6月份全社会用电量",
+    "coleta_utc": "2026-09-10T16:43:02.228405+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2019-06/14/c_138144020.htm",
+    "arquivo": "fontes_html/ab6ccef8b0b1e6559fe8.html",
+    "sha256": "0b7f97490261d8dfd70fb0805f3cc8c59320cd787b64588f7b32a0225a9b6371",
+    "titulo": "国家能源局发布5月份全社会用电量",
+    "coleta_utc": "2026-09-10T16:43:02.228494+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2019-05/16/c_138063559.htm",
+    "arquivo": "fontes_html/2423c72ce75bca5b1c5f.html",
+    "sha256": "c1ed5957b75b22a416e24aebd9f9814b6b4a0821867790eb12ccf7e5b34b5102",
+    "titulo": "国家能源局发布4月份全社会用电量",
+    "coleta_utc": "2026-09-10T16:43:02.228497+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2019-04/19/c_137990693.htm",
+    "arquivo": "fontes_html/09092b795ca59bd44510.html",
+    "sha256": "517841ba3ec91e11be2d3a586ee80179abae098a85a147aee5dd19541d4fcac0",
+    "titulo": "国家能源局发布3月份全社会用电量",
+    "coleta_utc": "2026-09-10T16:43:02.228499+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2019-03/20/c_137910037.htm",
+    "arquivo": "fontes_html/4b92733981d38ed17e36.html",
+    "sha256": "47b6f1f04713b627753f659eade97c88d2cdb6a61428a40ac11ff50c6f8c858c",
+    "titulo": "国家能源局发布2月份全社会用电量",
+    "coleta_utc": "2026-09-10T16:43:02.228652+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2019-01/18/c_137754978.htm",
+    "arquivo": "fontes_html/997b0be156ccdea03251.html",
+    "sha256": "097783fa8e3643d7ef2cb9ca6355f9883077e11eb6ad3edc6d750adaf717976d",
+    "titulo": "2018年全社会用电量同比增长8.5%",
+    "coleta_utc": "2026-09-10T16:43:02.228655+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2018-12/20/c_137687431.htm",
+    "arquivo": "fontes_html/d0ce15bff29affe01d16.html",
+    "sha256": "b8bb9f4cf44a41f6385ae80c4e12c9b58462c5d1ef02a9a8bf4ba2ab8087ddd6",
+    "titulo": "11月份全社会用电量同比增长6.3%",
+    "coleta_utc": "2026-09-10T16:43:02.228657+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2018-11/16/c_137611723.htm",
+    "arquivo": "fontes_html/4eef01010103fdf2b1f6.html",
+    "sha256": "4505f4c17191ae33d6b1b2e8960990e6edb33182a3196af908444b6ec39db4a0",
+    "titulo": "10月份全社会用电量同比增长6.7%",
+    "coleta_utc": "2026-09-10T16:43:02.228780+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2018-10/22/c_137550150.htm",
+    "arquivo": "fontes_html/dd737ae2f617537ea081.html",
+    "sha256": "a76d7680ffc5f8ba65801ea5f7b50ed5e3b6073987a14edce18360789f0d9297",
+    "titulo": "9月份全社会用电量同比增长8%",
+    "coleta_utc": "2026-09-10T16:43:02.228783+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2018-09/18/c_137476373.htm",
+    "arquivo": "fontes_html/259ad1ad668de601c8b8.html",
+    "sha256": "a2ef5f2d17ef983946edcbd351f0223ce396ccccdbda611beb924e4614565ffd",
+    "titulo": "8月份全社会用电量同比增长8.8%",
+    "coleta_utc": "2026-09-10T16:43:02.228784+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2018-08/17/c_137398024.htm",
+    "arquivo": "fontes_html/601ff98e4e89e3f0d58f.html",
+    "sha256": "98852ed778531e25795df76ff3b984269e0daef22a5de0dccc53cd1bf7fb0476",
+    "titulo": "7月份全社会用电量同比增长6.8%",
+    "coleta_utc": "2026-09-10T16:43:02.228879+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2018-07/13/c_137322013.htm",
+    "arquivo": "fontes_html/09345a4b79db245d5d53.html",
+    "sha256": "c998f7fffd1353c7f4d290bcd4a7a5c332efc62d604e466cb23464418735cced",
+    "titulo": "6月份全社会用电量同比增长8.0%",
+    "coleta_utc": "2026-09-10T16:43:02.229034+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2018-06/20/c_137268133.htm",
+    "arquivo": "fontes_html/33cd27073228f779e72d.html",
+    "sha256": "806e2524afc29f3375ffa11008c39dac0fb5fd9a5dbe92c816924308bd0527f8",
+    "titulo": "5月份全社会用电量同比增长11.4%",
+    "coleta_utc": "2026-09-10T16:43:02.229037+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2018-05/14/c_137178201.htm",
+    "arquivo": "fontes_html/5d47653b0e65c43137b0.html",
+    "sha256": "48be2bff2cfd52510572a6ffd069946644a9a0efa06e915d6443931f164bfb25",
+    "titulo": "4月份全社会用电量同比增长7.8%",
+    "coleta_utc": "2026-09-10T16:43:02.229039+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2018-04/13/c_137108797.htm",
+    "arquivo": "fontes_html/5e1b86e1834f90bfebc9.html",
+    "sha256": "8a8c8f542cd75ab0d6bd65fa05c1e2e90f9f047672e142a0eeb69c9484648dcc",
+    "titulo": "国家能源局发布3月份全社会用电量",
+    "coleta_utc": "2026-09-10T16:43:02.229180+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2018-03/20/c_137052579.htm",
+    "arquivo": "fontes_html/fcd7fce0b0bdc2a0d0f3.html",
+    "sha256": "359b4a785ab6620acf7ff24f13c93b249420a8ad046847b7a6be08d01a65a8dd",
+    "titulo": "国家能源局发布2月份全社会用电量",
+    "coleta_utc": "2026-09-10T16:43:02.229293+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2018-01/22/c_136914159.htm",
+    "arquivo": "fontes_html/0d954998bf1a8f556006.html",
+    "sha256": "bb0c6eaa6e5edbe23b5c9da7a50fbb5660988b99fa7f17c4177e93fcf9be93f3",
+    "titulo": "2017年全社会用电量同比增长6.6%",
+    "coleta_utc": "2026-09-10T16:43:02.229295+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2017-12/15/c_136828885.htm",
+    "arquivo": "fontes_html/4fb4658685c917be9874.html",
+    "sha256": "13de0f54895b91285638decfe7a13ba48abe7e294d555e2edef0db5538106c56",
+    "titulo": "11月全社会用电量同比增长4.6%",
+    "coleta_utc": "2026-09-10T16:43:02.229297+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2017-10/13/c_136677416.htm",
+    "arquivo": "fontes_html/c534699f473b9f2f4737.html",
+    "sha256": "a829158ec56a5464f21cbe3d8e0f9d988e6332026ca23c233a2e3be82ba7bebf",
+    "titulo": "9月份全社会用电量同比增长7.2%",
+    "coleta_utc": "2026-09-10T16:43:02.229520+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2017-09/15/c_136612766.htm",
+    "arquivo": "fontes_html/5073387c8e57caea6d5a.html",
+    "sha256": "e7d8da4f9530a3e4ac16921d1176ee452eca6b29612e4b67f3caa9a674fe8c6e",
+    "titulo": "8月份全社会用电量同比增长6.4%",
+    "coleta_utc": "2026-09-10T16:43:02.229522+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2017-08/15/c_136527396.htm",
+    "arquivo": "fontes_html/83a6f8817c04f07136b9.html",
+    "sha256": "95475addd7f8b62e20919dade34ade54dea6e11d3e681f8129991d37e1a6993b",
+    "titulo": "国家能源局发布7月份全社会用电量",
+    "coleta_utc": "2026-09-10T16:43:02.229524+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2017-06/14/c_136365269.htm",
+    "arquivo": "fontes_html/bc5770e7f8fa31107815.html",
+    "sha256": "6c1450b30056daba0e0de8bb52304c1aa745b6101a371c58be2b97d67b73cb88",
+    "titulo": "5月份全社会用电量同比增长5.1%",
+    "coleta_utc": "2026-09-10T16:43:02.229528+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2017-05/12/c_136275968.htm",
+    "arquivo": "fontes_html/15150c8ba9f02d9d3b59.html",
+    "sha256": "6d83fb97c7cacf8a6c7763097b6faf28a7f0f56f14e14081621e5c6d6f7fc628",
+    "titulo": "4月份全社会用电量同比增长6.0%",
+    "coleta_utc": "2026-09-10T16:43:02.229582+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2017-04/14/c_136209280.htm",
+    "arquivo": "fontes_html/2f1bbb1227902f718f06.html",
+    "sha256": "7e5670441b8c8b0f0cf5494686288be934224f4dc7370d5fbdde385626ae77da",
+    "titulo": "3月份全社会用电量同比增长7.9%",
+    "coleta_utc": "2026-09-10T16:43:02.229808+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2017-03/17/c_136136326.htm",
+    "arquivo": "fontes_html/535ec3670e8c20d0d8c2.html",
+    "sha256": "393ab48a11016ab8cde8e963185ad53c8316136d0f7f91aab511c4dd5664a96c",
+    "titulo": "国家能源局发布2月份全社会用电量",
+    "coleta_utc": "2026-09-10T16:43:02.229919+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2017-01/16/c_135986964.htm",
+    "arquivo": "fontes_html/9582067d3ae6c490a58b.html",
+    "sha256": "ddd26cf7dc5aa9b531f0cc502e4bf20f553f6bf53a1d2b5898cc35fbaedbc3b3",
+    "titulo": "2016年全社会用电量同比增长5.0%",
+    "coleta_utc": "2026-09-10T16:43:02.229921+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2016-12/15/c_135907156.htm",
+    "arquivo": "fontes_html/67a13990bc591d0305b3.html",
+    "sha256": "a332b6a9ec2f35eff95027274a20ac6fdc7614cfc5e549e5a01ffec58daf67c7",
+    "titulo": "11月份全社会用电量同比增长7.0%",
+    "coleta_utc": "2026-09-10T16:43:02.229922+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2016-11/16/c_135834653.htm",
+    "arquivo": "fontes_html/150a4283bcffead78ae6.html",
+    "sha256": "21904c5277b1ad36a9f21400d9defd0c9b77f230df8db2aaeea7f34926da5c3f",
+    "titulo": "10月份全社会用电量同比增长7.0%",
+    "coleta_utc": "2026-09-10T16:43:02.230249+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2016-10/17/c_135760946.htm",
+    "arquivo": "fontes_html/26bff2005de7de71598b.html",
+    "sha256": "f3332208ed58607a09fb2aabb3e7969891d12534a3e65de18bbc84e34a1ad821",
+    "titulo": "国家能源局发布9月份全社会用电量",
+    "coleta_utc": "2026-09-10T16:43:02.230252+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2016-09/18/c_135694559.htm",
+    "arquivo": "fontes_html/18a9aac7d79ee7d56629.html",
+    "sha256": "b0151a007781dbbc1ffd1ab27675fdfce816326e287cec21908af8435780dc87",
+    "titulo": "国家能源局发布8月份全社会用电量",
+    "coleta_utc": "2026-09-10T16:43:02.230253+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2016-08/16/c_135604054.htm",
+    "arquivo": "fontes_html/a210ac7cd9c065a70b54.html",
+    "sha256": "d805858a62ae8f1a14e498c880ce81a8ce59756013d099afbbcc7eb99459e599",
+    "titulo": "国家能源局发布7月份全社会用电量",
+    "coleta_utc": "2026-09-10T16:43:02.230330+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2016-07/15/c_135516219.htm",
+    "arquivo": "fontes_html/edf013b40c4ed8427132.html",
+    "sha256": "a85a6c169eb271c16c3dbd317cfccd4e8e1f320dd9ca101e17694c86220e6ba1",
+    "titulo": "国家能源局发布6月份全社会用电量",
+    "coleta_utc": "2026-09-10T16:43:02.230647+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2016-06/15/c_135439051.htm",
+    "arquivo": "fontes_html/7ccd2078c6f695774c89.html",
+    "sha256": "c0440423d1184cc965ac701b20bd505dd1b68be428d9814f5e58511621432056",
+    "titulo": "国家能源局发布5月份全社会用电量",
+    "coleta_utc": "2026-09-10T16:43:02.230649+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2016-05/18/c_135367992.htm",
+    "arquivo": "fontes_html/88b27bb9fa73a345c225.html",
+    "sha256": "60d85cd81443b9a9afa58278b2a008d4986d64ab27a5d834ff688ac9c0ac89ed",
+    "titulo": "国家能源局发布4月份全社会用电量",
+    "coleta_utc": "2026-09-10T16:43:02.230651+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2016-04/15/c_135282340.htm",
+    "arquivo": "fontes_html/a85bd80fa46a444e8177.html",
+    "sha256": "88384cd372d6a8a97a87029d13a8ef0985d4cbb97901fc8a2df2f13905a00184",
+    "titulo": "国家能源局发布3月份全社会用电量",
+    "coleta_utc": "2026-09-10T16:43:02.230707+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2016-03/16/c_135194541.htm",
+    "arquivo": "fontes_html/3eb3de571554ce24124a.html",
+    "sha256": "a44de0df3631931ca88b6d227f36ab3211f6fd3ba447a4ad2c44bab3e9587331",
+    "titulo": "国家能源局发布2月份全社会用电量",
+    "coleta_utc": "2026-09-10T16:43:02.230967+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2015-12/16/c_134923765.htm",
+    "arquivo": "fontes_html/f0ef7a24a2c4f7dd9189.html",
+    "sha256": "ede64e9a7b4cb6951f3326b8a4eaa1707580c1bdd56278781210ef52c26beaf8",
+    "titulo": "国家能源局发布11月份全社会用电量",
+    "coleta_utc": "2026-09-10T16:43:02.231107+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2015-11/16/c_134821470.htm",
+    "arquivo": "fontes_html/ad08e7de035ff3e42cd8.html",
+    "sha256": "05c919db77542a7bb789353709db6a9ad9eb3a3d8a4bfd6af3a3046bb680f358",
+    "titulo": "国家能源局发布10月份全社会用电量",
+    "coleta_utc": "2026-09-10T16:43:02.231110+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2015-10/19/c_134727170.htm",
+    "arquivo": "fontes_html/c3166782f7dfe850af19.html",
+    "sha256": "c0fde4c923a36e3bd53cce7be7760feaab712cac91ba9fd7788e3baa966fda1e",
+    "titulo": "国家能源局发布9月份全社会用电量",
+    "coleta_utc": "2026-09-10T16:43:02.231111+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2015-09/15/c_134625502.htm",
+    "arquivo": "fontes_html/e79ac375bb0c51eccd9f.html",
+    "sha256": "1bd6d3e6e441b891e5b5c5b710df055ed69ffd97702142c65154ff8349f8316c",
+    "titulo": "国家能源局发布8月份全社会用电量",
+    "coleta_utc": "2026-09-10T16:43:02.231273+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2015-08/14/c_134517626.htm",
+    "arquivo": "fontes_html/2b479d5c8838c3eba908.html",
+    "sha256": "38c50d3ab0d2df964f296c4bcc70dc859636fcdc90ebcd1781105c193e4e64fd",
+    "titulo": "国家能源局发布7月份全社会用电量",
+    "coleta_utc": "2026-09-10T16:43:02.231391+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2015-07/15/c_134414315.htm",
+    "arquivo": "fontes_html/83e5acc71745a3cddae0.html",
+    "sha256": "91e9059a882be8b37c481459c7c2e4a269bd5f1de76d75a90347c5733bd4ff4c",
+    "titulo": "国家能源局发布6月份全社会用电量",
+    "coleta_utc": "2026-09-10T16:43:02.231442+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2015-06/15/c_134328029.htm",
+    "arquivo": "fontes_html/bff437272c76827de474.html",
+    "sha256": "dcbb7cde5242f52e90fc41aca944522f4c895ba3680180ca4636813c8143b31b",
+    "titulo": "国家能源局发布5月份全社会用电量",
+    "coleta_utc": "2026-09-10T16:43:02.231444+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2015-05/14/c_134239299.htm",
+    "arquivo": "fontes_html/949c8d484a5fc11fbae5.html",
+    "sha256": "18301a315df2511a53f992dc6171025a0d11d59fcbbdef28173b6b9670476152",
+    "titulo": "国家能源局发布4月份全社会用电量",
+    "coleta_utc": "2026-09-10T16:43:02.231518+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2015-04/16/c_134155763.htm",
+    "arquivo": "fontes_html/aebbb656ea75931a6cb0.html",
+    "sha256": "0d201e1ce8631070d4f6fa34d3b81f1d291144329623ef0812c182756af04df7",
+    "titulo": "国家能源局发布3月份全社会用电量",
+    "coleta_utc": "2026-09-10T16:43:02.231745+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2015-03/16/c_134070233.htm",
+    "arquivo": "fontes_html/00f143f9950b10cf5a38.html",
+    "sha256": "6bfa3720a169b405248dcb2cd1259b53ad8d8ff5cd5fb579e8ee973bc58842ae",
+    "titulo": "国家能源局发布2月份全社会用电量",
+    "coleta_utc": "2026-09-10T16:43:02.231748+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2015-01/16/c_133923477.htm",
+    "arquivo": "fontes_html/c96c48ad55179d241052.html",
+    "sha256": "1ebb040e216d100861be67a184788a6a58ca8f426f2fd0c959fb405081b485c7",
+    "titulo": "国家能源局发布2014年全社会用电量",
+    "coleta_utc": "2026-09-10T16:43:02.231749+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/20241219/4130c6eff80341cca0b06da153624bfa/c.html",
+    "arquivo": "fontes_html/5f55438eb59807959e9d.html",
+    "sha256": "511dcf64d6a82017e7852012c351ca11c2b622c8e20f7ff5603f522fec60c117",
+    "titulo": "2024年11月份全社会用电量同比增长2.8%",
+    "coleta_utc": "2026-09-10T16:43:02.231751+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/20250120/4f7f249bac714e7693adecac996d742f/c.html",
+    "arquivo": "fontes_html/5330fb613f2309a3c9b6.html",
+    "sha256": "087b74b45fec2e316acbd1b13721212a96d1a0f321b4090d811433ff0ef67fbf",
+    "titulo": "2024年全社会用电量同比增长6.8%",
+    "coleta_utc": "2026-09-10T16:43:02.234913+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2017-07/13/c_136441228.htm",
+    "arquivo": "fontes_html/87d5ba0c3488188d6a97.html",
+    "sha256": "268b662c1b6e7cc9303ebfa2538b5f7d468d86c3e627d496b31765a63f0961eb",
+    "titulo": "6月份全社会用电量同比增长6.5%",
+    "coleta_utc": "2026-09-10T16:43:03.225395+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2017-11/14/c_136751789.htm",
+    "arquivo": "fontes_html/0b4c750ed3afb895107f.html",
+    "sha256": "d5a18ba2ffce787d607c144539ebca91328374dddf30756d833b7bda8f63a3ad",
+    "titulo": "10月份全社会用电量同比增长5.0%",
+    "coleta_utc": "2026-09-10T16:43:03.278073+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2016-01/15/c_135013789.htm",
+    "arquivo": "fontes_html/9edb6f021627a8a96db6.html",
+    "sha256": "aa4232ffe9ddfebe8b0c9693e35817c57787bdb1365c56819ec56d4f4c11ca1d",
+    "titulo": "国家能源局发布2015年全社会用电量",
+    "coleta_utc": "2026-09-10T16:43:03.421848+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2022-05/18/c_1310597238.htm",
+    "arquivo": "fontes_html/be3022864eae6d6f0116.html",
+    "sha256": "f9a8830ae79cb66ceff26c67a7e3346e2f9e0df0a36cf3035303e8f0d1ca29c7",
+    "titulo": "国家能源局发布1-4月份全国电力工业统计数据",
+    "coleta_utc": "2026-09-10T16:43:03.637253+00:00"
+  },
+  {
+    "url": "https://www.nea.gov.cn/2022-05/16/c_1310594831.htm",
+    "arquivo": "fontes_html/a4d28ce035294546bac4.html",
+    "sha256": "b35942b7c9d2afd8c4565bfa42ba9f04e0432d0197398ba3e902bce93d2aed23",
+    "titulo": "1~4月全社会用电量同比增长3.4%",
+    "coleta_utc": "2026-09-10T16:43:04.016333+00:00"
+  },
+  {
+    "url": "https://obor.nea.gov.cn/detail/19346.html",
+    "arquivo": "fontes_html/2e6389e23b0e6a769c33.html",
+    "sha256": "31a811695bbd05c55ef63f6c7f9b99d33cdbb4f5c65dae6daf5e6d9e1e6979e4",
+    "titulo": "5月全社会用电量同比增长7.4%",
+    "coleta_utc": "2026-09-10T16:43:05.546672+00:00"
+  }
+]

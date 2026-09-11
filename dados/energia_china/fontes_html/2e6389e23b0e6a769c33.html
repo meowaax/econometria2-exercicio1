@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="zh-Hans">
+<script src="/res/portal/js/jquery-1.9.1.js"></script> 
+<script type="text/javascript">
+
+	$(function() { 
+		var post_flag = false; 
+		if(post_flag) {
+			return};
+		post_flag = true;
+		$.ajax({
+			async: false,
+			url: "/clickNumber.html?id="+"19346",
+		  	data : {
+		    	ref:document.referrer
+		    },
+		 	dataType: "json",
+		  	success: function (data) {
+		  		post_flag = false;
+		    	if(data.success&&data.obj!=null){
+		    		htmlWrite(data.obj);
+		    	}
+		   	},
+		    error:function(){
+		    	post_flag = false;
+		    }
+		});
+	});
+	
+</script>
+<!--引入公共资源-->
+
+<head>
+<meta charset="utf-8" >
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta name="Keywords" content="一带一路、能源、能源合作" >
+<meta name="description" content="一带一路能源合作" />
+<!-- 禁止浏览器缓存 -->
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="Cache-Control" content="no-cache, must-revalidate">
+<meta http-equiv="expires" content="Wed, 26 Feb 1997 08:21:57 GMT">
+ <meta http-equiv="Expires" content="-1">
+
+<title>“一带一路”能源合作</title>
+
+<link rel="shortcut icon" href="/res/portal/images/favicon.ico" />
+<link rel="stylesheet" type="text/css" href="/res/portal/css/common.css">
+<link rel="stylesheet" type="text/css" href="/res/portal/css/layout.css">
+<link rel="stylesheet" type="text/css" href="/res/portal/css/slide.css">
+
+<script type="text/javascript" src="/res/portal/js/jquery.min.js"></script>
+<script type="text/javascript" src="/res/portal/js/common.js"></script>
+<script type="text/javascript" src="/res/portal/js/jquery.tab.js"></script>
+<script type="text/javascript" src="/res/portal/js/jquery.SuperSlide.2.1.1.js"></script>
+<script type="text/javascript" src="/jslib/My97DatePicker/WdatePicker.js"></script>
+<script>
+$(function() {
+	$.tab(".tab");
+});
+</script>
+</head><body>
+<!--page head-->
+<!--引入页头-->
+<!--page head-->
+<script type="text/javascript">  
+    $(function() {  
+        $('#searchBT').click(function() {
+         $('#searchForm').submit();
+        });  
+    }); 
+    function checkDic(dictName){
+        $('#queryKey').val(dictName);
+         $('#searchForm').submit();
+    } 
+</script>
+<!--page head-->
+<style type="text/css">
+.head{
+background:#68bae3 url(/res/portal/images/header-01.png) center top repeat-y ;
+position:relative;
+min-width:1100px
+}
+
+.head .top-nv{
+background:none;
+}
+.head .mini-bar{
+position:absolute;
+right:0px;
+top:5px;
+text-align:center;
+
+}
+.head .mini-bar a{
+color:#fff;
+font-size:14px;
+}
+.head .main-logo{
+position:absolute;
+left:20px;
+}
+.head .main-logo img{
+display:block
+}
+.head .search{
+	height:30px;
+	width:300px;
+	position: absolute;
+	right:70px;
+	top:65px;
+	border-radius:15px;
+	border:#fff 1px solid;
+	background:#fff;
+	overflow:hidden;
+}
+.head .search input{
+	float:left;
+	height:30px;
+	width:260px;
+	outline:none;
+	padding-left:10px;
+	border:none;
+}
+.head .search span{
+	float:right;
+	width:30px;
+	height:30px;
+	cursor:pointer;
+	background:#FFF url(/res/portal/images/sbtn.png);
+
+}
+
+.top-bar{
+height:160px;
+width:1100px;
+margin:0 auto;
+position:relative;
+
+}
+.searchLink{
+	position:absolute;
+	right:5px;
+	top:70px;
+	color:#fff
+}
+</style>
+<div class="head part">
+	<div class="top-bar">
+	  <a href="#" class="main-logo"><img src="/res/portal/images/logo-1-01.png"  width="360px" border="0"  /></a>
+	   <div class="mini-bar"> 
+                <a href="/index.html?webSiteId=2" target="_blank">English</a>&nbsp;
+     </div>
+<a href="#" class="searchLink" id="searchBT">全文搜索</a>
+	 <div class="search clearfix">
+        <form action="/doc/search.html" method="post" id="searchForm">
+            	<input type="hidden" name="CSRFToken" value="" /> <span></span>	
+                <input type="text" name="queryKey"  value=""/><button ></button>
+        </form>
+      </div>
+  </div>
+<div class="nvBar">
+		<ul class="nv wp">
+        <li><a href="/index.html">首页</a></li>
+		          	 <li>
+			        	<a href="/news.html?1=1">新闻资讯</a>
+			                <ul>
+			                		 <li><a href="/channel/2.html?1=1">国际新闻</a></li>
+			                		 <li><a href="/channel/3.html?1=1">国内新闻</a></li>
+			                </ul>			       		 
+					</li>
+		          	 <li>
+			        	<a href="/information.html?1=1">信息发布</a>
+			                <ul>
+			                		 <li><a href="/informationList.html?1=1">会议</a></li>
+			                		 <li><a href="/informationListTender.html?1=1">招投标</a></li>
+			                		 <li><a href="/channel/4.html?1=1">能源价格</a></li>
+			                </ul>			       		 
+					</li>
+		          	 <li>
+			        	<a href="/v_country/toDataPage.html">数据资料</a>
+			                <ul>
+			                		 <li><a href="/v_country/toData.html?1=1">数据</a></li>
+			                		 <li><a href="/v_country/toInfomation.html?channelId=1125">资料</a></li>
+			                </ul>			       		 
+					</li>
+		          	 <li>
+			        	<a href="/v_finance/toFinance.html?1=1">金融法务</a>
+			                <ul>
+			                		 <li><a href="/v_finance/toFund.html?type=5&amp;channelId=33">基金</a></li>
+			                		 <li><a href="/v_finance/toBank.html?type=6&amp;channelId=34">银行</a></li>
+			                		 <li><a href="/v_finance/toInsurance.html?type=7&channelId=35">保险</a></li>
+			                </ul>			       		 
+					</li>
+		          	 <li>
+			        	<a href="/v_practice/toPractice.html?1=1">最佳实践</a>
+			                <ul>
+			                		 <li><a href="/v_practice/toPractice.html?channelId=1083">双边机制</a></li>
+			                		 <li><a href="/v_practice/toPractice.html?channelId=1084">多边机制</a></li>
+			                </ul>			       		 
+					</li>
+        
+	</ul>
+</div>
+
+</div>
+<!--page head end--><!--page head end-->
+<div class="sitePath wp clearfix">
+<a href="/index.html"><img src="/images/d.gif"></a>
+<a href="/index.html">首 页</a>
+
+
+	      	<span>&gt;</span><a href="/news.html?1=1">新闻资讯</a>
+	      	<span>&gt;</span><a href="/channel/3.html?1=1">国内新闻</a>
+	      	<span>&gt;</span><a href="/channel/1091.html?1=1">能源资讯</a>
+<span>&gt;</span><p>正文</p>
+</div>
+<style type="text/css">
+.bTitle{
+	padding:30px 0;
+	border-bottom:#ebebec 1px solid;
+}
+.bTitle h1{
+	font-size:38px;
+	text-align:center;
+	line-height:50px;
+	display:block;
+	padding:10px 40px 30px 40px;
+	color:#000
+}
+.bTitle>div{
+	line-height:30px;
+	text-align:center;
+}
+.bTitle>div>span{
+	color:#808080
+}
+.content{
+	position:relative;
+	font-size:16px;
+	line-height:30px;
+	color:#000;
+	padding:30px 40px 30px 25px;
+	min-height:650px;
+
+    margin-bottom: 60px;
+    font-family: "宋体";
+	
+}
+</style>
+<div class="wp cwp">
+	<div class="bTitle">
+       <h1>5月全社会用电量同比增长7.4%</h1>
+        <div>
+	        	<span>发布时间：2023-06-16 17:05:39</span>
+    	    <span>&nbsp;&nbsp;&nbsp;</span>
+    	     <span>来源：人民日报</span>
+	        	<span>&nbsp;&nbsp;&nbsp;</span>
+	        	<span>作者：丁怡婷</span>
+        </div>
+    </div>
+   		<div class="content">
+			<p style="margin:0cm;text-align:justify;text-justify:inter-ideograph;line-height:25.0pt;font-size:16.0pt;font-family:'Times New Roman',serif;color:black;text-indent:32.0pt;line-height:1.5"><span style="line-height:1.5;font-family:宋体">14</span><span style="line-height:1.5;font-family:宋体">日，国家能源局发布<span>5</span>月份全社会用电量等数据。<span>5</span>月份，全社会用电量<span>7222</span>亿千瓦时，同比增长<span>7.4%</span>。分产业看，第一产业用电量<span>103</span>亿千瓦时，同比增长<span>16.9%</span>；第二产业用电量<span>4958</span>亿千瓦时，同比增长<span>4.1%</span>；第三产业用电量<span>1285</span>亿千瓦时，同比增长<span>20.9%</span>；城乡居民生活用电量<span>876</span>亿千瓦时，同比增长<span>8.2%</span>。今年<span>1</span>至<span>5</span>月，全社会用电量累计<span>35325</span>亿千瓦时，同比增长<span>5.2%</span>。</span></p>
+<p style="margin:0cm;text-align:justify;text-justify:inter-ideograph;line-height:25.0pt;font-size:16.0pt;font-family:'Times New Roman',serif;color:black;text-indent:32.0pt;line-height:1.5"><span style="line-height:1.5;font-family:宋体">中国电力企业联合会有关负责人介绍，预计今年全国最高用电负荷<span>13.7</span>亿千瓦左右，比<span>2022</span>年增加<span>8000</span>万千瓦左右。若出现长时段大范围极端气候，全国最高用电负荷可能比<span>2022</span>年增加<span>1</span>亿千瓦左右。今年迎峰度夏期间，预计全国电力供需总体紧平衡。</span></p>
+<p style="margin:0cm;text-align:justify;text-justify:inter-ideograph;line-height:25.0pt;font-size:16.0pt;font-family:'Times New Roman',serif;color:black;text-indent:32.0pt;line-height:1.5"><span style="line-height:1.5;font-family:宋体">当前，各地各部门积极做好电力迎峰度夏保障工作。国家能源局相关负责人介绍，今年以来全国煤炭产量稳定增长、价格有所回落，电煤供应平稳有序；目前全国已投产支撑性电源<span>1700</span>万千瓦以上，各类电源开工、投产情况符合预期。中电联提供的数据显示，截至<span>6</span>月<span>4</span>日，统计口径内发电集团燃煤电厂煤炭库存合计<span>1.13</span>亿吨，同比增长<span>2135</span>万吨，为近<span>4</span>年以来最高值，电厂电煤库存可用<span>25.6</span>天。</span></p>
+<p style="margin:0cm;text-align:justify;text-justify:inter-ideograph;line-height:25.0pt;font-size:16.0pt;font-family:'Times New Roman',serif;color:black;text-indent:32.0pt;line-height:1.5"><span style="line-height:1.5;font-family:宋体">与此同时，电网工程加快建设、输电线路加强巡检，提升电力系统支撑能力。据了解，国家电网今年建设迎峰度夏重点电网工程<span>239</span>项，<span>6</span>月底前将全部完工；南方电网已完成<span>13</span>条直流工程的年度体检，保障西电东送主通道的安全畅通。省份之间的电力互补互济、余缺调剂也在加强。</span></p>
+<p style="margin:0cm;text-align:justify;text-justify:inter-ideograph;line-height:25.0pt;font-size:16.0pt;font-family:'Times New Roman',serif;color:black;text-indent:32.0pt;line-height:1.5"><span style="line-height:1.5;font-family:宋体">（原标题：<span>5</span>月全社会用电量同比增长<span>7.4%</span>）</span></p>
+<p style="margin:0cm;text-align:justify;text-justify:inter-ideograph;line-height:25.0pt;font-size:16.0pt;font-family:'Times New Roman',serif;color:black;text-indent:32.0pt;line-height:1.5"><span style="line-height:1.5;font-family:宋体">&nbsp;</span></p>
+<p style="margin:0cm;text-align:justify;text-justify:inter-ideograph;line-height:25.0pt;font-size:16.0pt;font-family:'Times New Roman',serif;color:black;text-align:right" align="right"><span style="font-family:
+宋体">责任编辑：李楠</span></p>
+<p style="margin:0cm;text-align:justify;text-justify:inter-ideograph;line-height:25.0pt;font-size:16.0pt;font-family:'Times New Roman',serif;color:black;text-align:right" align="right"><span style="font-family:宋体">&nbsp;</span></p>
+<p style="margin:0cm;text-align:justify;text-justify:inter-ideograph;line-height:25.0pt;font-size:16.0pt;font-family:'Times New Roman',serif;color:black;text-align:right" align="right"><span style="font-family:宋体">&nbsp;</span></p>
+        </div>
+</div>
+<div class="spacing"></div>
+<!--page footer-->
+	<!--引入公共页脚-->
+<!--页脚开始-->
+
+ <div class="floot">
+<!--    <div class="floot-wp clearfix">
+      <div class="floot-wp-fl">
+
+ 					          <div class="floot-wp-li fl">
+			          	  <a href="/news.html?1=1"><h5>新闻资讯</h5></a>
+			                <a href="/channel/2.html?1=1">国际新闻</a>
+			                <a href="/channel/3.html?1=1">国内新闻</a>
+			          </div>					
+			          <div class="floot-wp-li fl">
+			          	  <a href="/information.html?1=1"><h5>信息发布</h5></a>
+			                <a href="/informationList.html?1=1">会议</a>
+			                <a href="/informationListTender.html?1=1">招投标</a>
+			                <a href="/channel/4.html?1=1">能源价格</a>
+			          </div>					
+			          <div class="floot-wp-li fl">
+			          	  <a href="/v_country/toDataPage.html"><h5>数据资料</h5></a>
+			                <a href="/v_country/toData.html?1=1">数据</a>
+			                <a href="/v_country/toInfomation.html?channelId=1125">资料</a>
+			          </div>					
+			          <div class="floot-wp-li fl">
+			          	  <a href="/v_finance/toFinance.html?1=1"><h5>金融法务</h5></a>
+			                <a href="/v_finance/toFund.html?type=5&amp;channelId=33">基金</a>
+			                <a href="/v_finance/toBank.html?type=6&amp;channelId=34">银行</a>
+			                <a href="/v_finance/toInsurance.html?type=7&channelId=35">保险</a>
+			          </div>					
+			          <div class="floot-wp-li fl">
+			          	  <a href="/v_practice/toPractice.html?1=1"><h5>最佳实践</h5></a>
+			                <a href="/v_practice/toPractice.html?channelId=1083">双边机制</a>
+			                <a href="/v_practice/toPractice.html?channelId=1084">多边机制</a>
+			          </div>					
+
+      
+        <div class="clear"></div>
+      </div>
+    </div>
+-->    
+    <div class="floot-wp-bottom clearfix">
+		<!-- 20220929 增加政府找错功能链接 -->
+		<div style="position: absolute;">
+		<a target="blank" href="https://zfwzgl.www.gov.cn/exposure/jiucuo.html?site_code=bm62000002&amp;url=http%3A%2F%2Fwww.nea.gov.cn%2F" style="margin: auto;">
+			<img src="/res/portal/images/zhaocuo.png" style="width: 110px;margin-top: -15px;height: 55px;border: blue;border-top-color: azure;" />
+		</a>
+		</div>	
+      <p class="floot-bottom-p">
+      		<a href="/detailFoot/1146.html">关于我们</a>
+      		<b>|</b>
+            <a href="/detailFoot/1145.html">联系我们</a>
+      		<b>|</b>
+      		<a href="/detailFoot/1173.html">法律声明</a>
+      </p>
+	 
+      <div class="floot-bottom-fl">
+	  
+          <p class="">
+          	主办单位：国家能源局&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          	运营单位：中国国信信息总公司
+			</br></br>
+			京ICP备11044902号	
+          </p>
+		<p style="margin-bottom:15px">为了您最佳的浏览效果，建议使用Chrome,Firefox,IE9及以上版本的浏览器</p>
+		<p><img alt="DR_code" src="/res/portal/images/DR_code.jpg" width="100px" height="100px"></img></p>
+     
+	 </div>
+
+      <div class="clear"></div>
+    </div>
+
+  </div>
+<!--页脚结束-->
+<!--page footer end-->
+</body>
+</html>

@@ -1,0 +1,121 @@
+data,Original disponível TWh,Diretamente observado,Lacuna original,Procedência,Série de trabalho TWh,Suspeito observado,Cópia tratada TWh
+2015-01-01,485.9,False,False,reconstituido_mesma_fonte,485.9,False,485.9
+2015-02-01,359.5,True,False,observado_mensal,359.5,False,359.5
+2015-03-01,444.8,True,False,observado_mensal,444.8,False,444.8
+2015-04-01,441.5,True,False,observado_mensal,441.5,False,441.5
+2015-05-01,456.7,True,False,observado_mensal,456.7,False,456.7
+2015-06-01,472.3,True,False,observado_mensal,472.3,False,472.3
+2015-07-01,503.4,True,False,observado_mensal,503.4,False,503.4
+2015-08-01,512.4,True,False,observado_mensal,512.4,False,512.4
+2015-09-01,456.3,True,False,observado_mensal,456.3,False,456.3
+2015-10-01,449.1,True,False,observado_mensal,449.1,False,449.1
+2015-11-01,465.8,True,False,observado_mensal,465.8,False,465.8
+2015-12-01,,False,True,imputado_Harmônica log,506.5376787171585,False,506.5376787171585
+2016-01-01,495.0,False,False,reconstituido_mesma_fonte,495.0,False,495.0
+2016-02-01,381.2,True,False,observado_mensal,381.2,False,381.2
+2016-03-01,476.2,True,False,observado_mensal,476.2,False,476.2
+2016-04-01,456.9,True,False,observado_mensal,456.9,False,456.9
+2016-05-01,473.0,True,False,observado_mensal,473.0,False,473.0
+2016-06-01,492.5,True,False,observado_mensal,492.5,False,492.5
+2016-07-01,552.3,True,False,observado_mensal,552.3,False,552.3
+2016-08-01,563.1,True,False,observado_mensal,563.1,False,563.1
+2016-09-01,496.5,True,False,observado_mensal,496.5,False,496.5
+2016-10-01,489.0,True,False,observado_mensal,489.0,False,489.0
+2016-11-01,507.2,True,False,observado_mensal,507.2,False,507.2
+2016-12-01,,False,True,imputado_Harmônica log,539.34135912533,False,539.34135912533
+2017-01-01,486.8,False,False,reconstituido_mesma_fonte,486.8,False,486.8
+2017-02-01,448.8,True,False,observado_mensal,448.8,True,435.60565272216604
+2017-03-01,513.9,True,False,observado_mensal,513.9,False,513.9
+2017-04-01,484.7,True,False,observado_mensal,484.7,False,484.7
+2017-05-01,496.8,True,False,observado_mensal,496.8,False,496.8
+2017-06-01,524.4,True,False,observado_mensal,524.4,False,524.4
+2017-07-01,607.2,True,False,observado_mensal,607.2,False,607.2
+2017-08-01,599.1,True,False,observado_mensal,599.1,False,599.1
+2017-09-01,531.7,True,False,observado_mensal,531.7,False,531.7
+2017-10-01,513.0,True,False,observado_mensal,513.0,False,513.0
+2017-11-01,531.0,True,False,observado_mensal,531.0,False,531.0
+2017-12-01,,False,True,imputado_Harmônica log,574.2694253265715,False,574.2694253265715
+2018-01-01,599.5,False,False,reconstituido_mesma_fonte,599.5,False,599.5
+2018-02-01,455.7,True,False,observado_mensal,455.7,False,455.7
+2018-03-01,532.5,True,False,observado_mensal,532.5,False,532.5
+2018-04-01,521.7,True,False,observado_mensal,521.7,False,521.7
+2018-05-01,553.4,True,False,observado_mensal,553.4,False,553.4
+2018-06-01,566.3,True,False,observado_mensal,566.3,False,566.3
+2018-07-01,648.4,True,False,observado_mensal,648.4,False,648.4
+2018-08-01,652.1,True,False,observado_mensal,652.1,False,652.1
+2018-09-01,574.2,True,False,observado_mensal,574.2,False,574.2
+2018-10-01,548.1,True,False,observado_mensal,548.1,False,548.1
+2018-11-01,564.7,True,False,observado_mensal,564.7,False,564.7
+2018-12-01,,False,True,imputado_Harmônica log,611.4594538044255,False,611.4594538044255
+2019-01-01,617.2,False,False,reconstituido_mesma_fonte,617.2,False,617.2
+2019-02-01,489.1,True,False,observado_mensal,489.1,False,489.1
+2019-03-01,573.2,True,False,observado_mensal,573.2,False,573.2
+2019-04-01,553.4,True,False,observado_mensal,553.4,False,553.4
+2019-05-01,566.5,True,False,observado_mensal,566.5,False,566.5
+2019-06-01,598.7,True,False,observado_mensal,598.7,False,598.7
+2019-07-01,667.2,True,False,observado_mensal,667.2,False,667.2
+2019-08-01,677.0,True,False,observado_mensal,677.0,False,677.0
+2019-09-01,602.0,True,False,observado_mensal,602.0,False,602.0
+2019-10-01,579.0,True,False,observado_mensal,579.0,False,579.0
+2019-11-01,591.2,True,False,observado_mensal,591.2,False,591.2
+2019-12-01,,False,True,imputado_Harmônica log,651.0579305770789,False,651.0579305770789
+2020-01-01,580.5,False,False,reconstituido_mesma_fonte,580.5,False,580.5
+2020-02-01,439.8,True,False,observado_mensal,439.8,True,502.248707746422
+2020-03-01,549.3,True,False,observado_mensal,549.3,True,582.9510904914614
+2020-04-01,557.2,True,False,observado_mensal,557.2,False,557.2
+2020-05-01,592.6,True,False,observado_mensal,592.6,False,592.6
+2020-06-01,635.0,True,False,observado_mensal,635.0,False,635.0
+2020-07-01,682.4,True,False,observado_mensal,682.4,True,692.9433998641332
+2020-08-01,729.4,True,False,observado_mensal,729.4,False,729.4
+2020-09-01,645.4,True,False,observado_mensal,645.4,False,645.4
+2020-10-01,617.2,True,False,observado_mensal,617.2,False,617.2
+2020-11-01,646.7,True,False,observado_mensal,646.7,False,646.7
+2020-12-01,,False,True,imputado_Harmônica log,693.220828184113,False,693.220828184113
+2021-01-01,732.4,False,False,reconstituido_mesma_fonte,732.4,False,732.4
+2021-02-01,526.4,True,False,observado_mensal,526.4,True,550.39231074986
+2021-03-01,663.1,True,False,observado_mensal,663.1,False,663.1
+2021-04-01,636.1,True,False,observado_mensal,636.1,False,636.1
+2021-05-01,672.4,True,False,observado_mensal,672.4,False,672.4
+2021-06-01,703.3,True,False,observado_mensal,703.3,False,703.3
+2021-07-01,775.8,True,False,observado_mensal,775.8,False,775.8
+2021-08-01,760.7,True,False,observado_mensal,760.7,False,760.7
+2021-09-01,694.7,True,False,observado_mensal,694.7,False,694.7
+2021-10-01,660.3,True,False,observado_mensal,660.3,False,660.3
+2021-11-01,671.8,True,False,observado_mensal,671.8,False,671.8
+2021-12-01,,False,True,imputado_Harmônica log,738.1142200392474,False,738.1142200392474
+2022-01-01,723.2,False,False,reconstituido_mesma_fonte,723.2,False,723.2
+2022-02-01,623.5,True,False,observado_mensal,623.5,False,623.5
+2022-03-01,694.4,True,False,observado_mensal,694.4,False,694.4
+2022-04-01,636.2,True,False,observado_mensal,636.2,False,636.2
+2022-05-01,671.6,True,False,observado_mensal,671.6,False,671.6
+2022-06-01,745.1,True,False,observado_mensal,745.1,False,745.1
+2022-07-01,832.4,True,False,observado_mensal,832.4,False,832.4
+2022-08-01,852.0,True,False,observado_mensal,852.0,False,852.0
+2022-09-01,709.2,True,False,observado_mensal,709.2,False,709.2
+2022-10-01,683.4,True,False,observado_mensal,683.4,False,683.4
+2022-11-01,682.8,True,False,observado_mensal,682.8,False,682.8
+2022-12-01,,False,True,imputado_Harmônica log,785.9149345689436,False,785.9149345689436
+2023-01-01,688.4,False,False,reconstituido_mesma_fonte,688.4,False,688.4
+2023-02-01,695.0,True,False,observado_mensal,695.0,True,687.3319158746071
+2023-03-01,736.9,True,False,observado_mensal,736.9,False,736.9
+2023-04-01,690.1,True,False,observado_mensal,690.1,False,690.1
+2023-05-01,722.2,True,False,observado_mensal,722.2,False,722.2
+2023-06-01,775.1,True,False,observado_mensal,775.1,False,775.1
+2023-07-01,888.8,True,False,observado_mensal,888.8,False,888.8
+2023-08-01,886.1,True,False,observado_mensal,886.1,False,886.1
+2023-09-01,781.1,True,False,observado_mensal,781.1,False,781.1
+2023-10-01,741.9,True,False,observado_mensal,741.9,False,741.9
+2023-11-01,763.0,True,False,observado_mensal,763.0,False,763.0
+2023-12-01,,False,True,imputado_Harmônica log,836.8112517134059,False,836.8112517134059
+2024-01-01,,False,True,imputado_Harmônica log,775.4228850080989,False,775.4228850080989
+2024-02-01,,False,True,imputado_Harmônica log,711.1026156794779,False,711.1026156794779
+2024-03-01,794.2,True,False,observado_mensal,794.2,False,794.2
+2024-04-01,741.2,True,False,observado_mensal,741.2,False,741.2
+2024-05-01,775.1,True,False,observado_mensal,775.1,False,775.1
+2024-06-01,820.5,True,False,observado_mensal,820.5,False,820.5
+2024-07-01,939.6,True,False,observado_mensal,939.6,False,939.6
+2024-08-01,964.9,True,False,observado_mensal,964.9,False,964.9
+2024-09-01,847.5,True,False,observado_mensal,847.5,False,847.5
+2024-10-01,774.2,True,False,observado_mensal,774.2,False,774.2
+2024-11-01,784.9,True,False,observado_mensal,784.9,False,784.9
+2024-12-01,,False,True,imputado_Harmônica log,891.0036445334006,False,891.0036445334006

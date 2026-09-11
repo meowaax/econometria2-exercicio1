@@ -1,0 +1,13 @@
+,Preenchimento,Transformação,Regressão,N,ADF estatística,ADF p,ADF lags,ADF crítico 5%,KPSS estatística,KPSS p,KPSS lags,KPSS crítico 5%,Leitura a 5%
+0,Harmônica log,Nível,c,120,1.3954606924079687,0.9970934226919429,12,-2.888954648057252,1.7492801638383975,"≤0,01",6,0.463,Compatível com não estacionariedade
+1,Harmônica log,Log nível,c,120,-0.16752761339091565,0.9422831704775768,12,-2.888954648057252,1.7627962087240852,"≤0,01",6,0.463,Compatível com não estacionariedade
+2,Harmônica log,Log com tendência,ct,120,-2.007957014359208,0.5970925758862766,12,-3.452348053635668,0.02368752194215978,"≥0,10",1,0.146,Inconclusivo
+3,Harmônica log,Diferença log,c,119,-4.594639853476418,0.00013214019663155746,12,-2.8892174239808703,0.12196526646601312,"≥0,10",21,0.463,Compatível com estacionariedade na especificação
+4,Harmônica log,Diferença sazonal log,c,108,-4.783769899703177,5.841029092509346e-05,1,-2.8892174239808703,0.057840236755430575,"≥0,10",4,0.463,Compatível com estacionariedade na especificação
+5,Harmônica log,Diferença comum + sazonal log,c,107,-9.571302472780799,2.284432254860785e-16,2,-2.889758398668639,0.04961409038200946,"≥0,10",9,0.463,Compatível com estacionariedade na especificação
+6,Linear (sensibilidade),Nível,c,120,0.7884918268276335,0.991448115097657,12,-2.888954648057252,1.7254626340887964,"≤0,01",6,0.463,Compatível com não estacionariedade
+7,Linear (sensibilidade),Log nível,c,120,-0.30089084558377305,0.9253780670196192,12,-2.888954648057252,1.7433597392557936,"≤0,01",6,0.463,Compatível com não estacionariedade
+8,Linear (sensibilidade),Log com tendência,ct,120,-2.391518629620566,0.3841375377510297,12,-3.452348053635668,0.023041118158347643,"≥0,10",3,0.146,Inconclusivo
+9,Linear (sensibilidade),Diferença log,c,119,-5.180347847710055,9.64171257674146e-06,11,-2.888954648057252,0.04904359407270279,"≥0,10",9,0.463,Compatível com estacionariedade na especificação
+10,Linear (sensibilidade),Diferença sazonal log,c,108,-5.667720134531216,9.070528807838189e-07,0,-2.888954648057252,0.056519511074064235,"≥0,10",4,0.463,Compatível com estacionariedade na especificação
+11,Linear (sensibilidade),Diferença comum + sazonal log,c,107,-9.033627346022856,5.361826509330512e-15,2,-2.889758398668639,0.10720998358714272,"≥0,10",16,0.463,Compatível com estacionariedade na especificação
