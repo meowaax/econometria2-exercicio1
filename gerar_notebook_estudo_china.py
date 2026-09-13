@@ -387,9 +387,11 @@ principal_est = testes[testes.Preenchimento.eq(melhor_imputador)].set_index('Tra
 r_nivel = principal_est.loc['Log nível']
 r_dif = principal_est.loc['Diferença sazonal log']
 display(Markdown(f"**Neste conjunto:** no log em nível, ADF p = {r_nivel['ADF p']:.4f} e KPSS p {r_nivel['KPSS p']}. Os dois apontam para não estacionariedade em nível. Para a diferença sazonal do log, ADF p = {r_dif['ADF p']:.6f} e KPSS p {r_dif['KPSS p']}: o resultado é compatível com estacionariedade na especificação. A primeira diferença também passa nos critérios, e a inclusão apenas de tendência deixa os testes inconclusivos. As mesmas leituras qualitativas aparecem com preenchimento linear. **Uma escolha didática útil é estudar a diferença de 12 meses do log**, que compara cada mês ao mesmo mês do ano anterior; não é necessário acrescentar outra diferença somente para diminuir o p-valor."))
-fig, axs = plt.subplots(3,1,figsize=(12,7),sharex=True)
-for ax, s, titulo in zip(axs, [np.log(trabalho), np.log(trabalho).diff(), np.log(trabalho).diff(12)],
-                        ['Log do consumo', 'Primeira diferença do log', 'Diferença de 12 meses do log']):
+fig, axs = plt.subplots(4,1,figsize=(12,10),sharex=True)
+for ax, s, titulo in zip(axs, [np.log(trabalho), np.log(trabalho).diff(), np.log(trabalho).diff(12),
+                             np.log(trabalho).diff(12).diff()],
+                        ['Log do consumo', 'Primeira diferença do log', 'Diferença de 12 meses do log',
+                         'Diferença comum e sazonal do log (12 meses)']):
     ax.plot(s, color='#176B87'); ax.set_title(titulo); ax.grid(alpha=.2)
 figura('03_transformacoes_estacionariedade')
 ''')
