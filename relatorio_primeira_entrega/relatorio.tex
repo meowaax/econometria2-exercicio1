@@ -1,0 +1,200 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[brazil]{babel}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage[a4paper,margin=2.3cm]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs,tabularx}
+\usepackage{caption}
+\usepackage[section]{placeins}
+
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,linkcolor=black,citecolor=black,urlcolor=blue,
+ pdftitle={Consumo mensal de eletricidade na China: Atividade I de Econometria II},
+ pdfauthor={Alex Tavares Cordeiro e Brenno Henrique Alves da Silva Costa}}
+\renewcommand{\thesection}{\Roman{section}}
+\renewcommand{\thesubsection}{\thesection.\arabic{subsection}}
+\renewcommand{\arraystretch}{1.15}
+\setlength{\parindent}{1.2cm}
+\setlength{\parskip}{0.25em}
+\setlength{\emergencystretch}{2em}
+\setlength{\headheight}{14pt}
+\linespread{1.12}
+\captionsetup{font=small,labelfont=bf}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small Econometria II}
+\fancyhead[R]{\small Atividade I}
+\fancyfoot[C]{\thepage}
+\newcommand{\fonte}[1]{\par\vspace{2pt}{\footnotesize\textit{Fonte:} #1\par}}
+\newcommand{\nota}[1]{\par\vspace{2pt}{\footnotesize\textit{Nota:} #1\par}}
+\newcommand{\grafico}[4]{%
+\begin{figure}[!htbp]\centering
+\includegraphics[width=#3\linewidth,height=#4\textheight,keepaspectratio]{figuras/#1.png}
+\caption{#2}\label{fig:#1}
+\fonte{Elaboração dos autores a partir dos resultados do notebook e dos dados da NEA.}
+\end{figure}}
+
+\begin{document}
+\hypersetup{pageanchor=false}
+\begin{titlepage}
+\centering
+{\large ECONOMETRIA II\par}
+\vspace{1cm}
+{\Large Atividade I\par}
+\vspace{2cm}
+{\LARGE\bfseries Consumo mensal de eletricidade na China\par}
+\vspace{0.3cm}
+{\Large Análise da série temporal de 2015 a 2024\par}
+\vspace{2cm}
+{\large Alex Tavares Cordeiro\par}
+\vspace{0.25cm}
+{\large Brenno Henrique Alves da Silva Costa\par}
+\vspace{1.5cm}
+{\large Professor: Cassio da Nobrega Besarria\par}
+\vfill
+{\large 15 de setembro de 2026\par}
+\end{titlepage}
+\hypersetup{pageanchor=true}
+
+
+\section{Definição de série temporal}
+Uma série temporal é um conjunto de valores registrados ao longo do tempo, como o consumo de eletricidade em cada mês. A ordem dos registros importa, pois um valor pode estar relacionado aos meses anteriores e à mesma época de outros anos.
+
+Este relatório usa os resultados do notebook \texttt{energia\_china\_estudo\_completo.ipynb} para descrever a série, preencher valores faltantes, tratar valores muito diferentes do padrão e aplicar métodos de suavização.
+
+\section{Série escolhida e estatística descritiva}
+A série escolhida é o \textbf{consumo mensal de eletricidade da China}, publicado pela \textit{National Energy Administration} (NEA) \cite{neaArquivo,neaMensal}. Os valores estão em TWh: 1 TWh equivale a um bilhão de kWh.
+
+O período vai de janeiro de 2015 a dezembro de 2024, totalizando 120 meses. A base contém 99 valores publicados diretamente e nove janeiros calculados pela diferença entre o total de janeiro--fevereiro e fevereiro do mesmo boletim. Faltam 12 valores: os dez dezembros e janeiro e fevereiro de 2024. Esses meses não foram localizados separadamente na coleta; isso não significa consumo zero. O total do primeiro bimestre de 2024 está disponível \cite{neaBimestre}. Maio de 2023 veio de uma republicação no portal da NEA \cite{neaMaio}.
+
+A periodicidade é \textbf{mensal}, com um padrão sazonal \textbf{anual}, de 12 meses. O gráfico mostra crescimento do consumo e valores geralmente mais altos em julho e agosto.
+\grafico{01_serie_original}{Consumo mensal de eletricidade na China, 2015--2024.}{1}{0.28}
+
+\begin{table}[htbp]\centering\small
+\caption{Estatística descritiva antes do preenchimento das lacunas.}\label{tab:descritiva}
+\input{tabelas/descritiva}
+\fonte{Notebook, com os 108 valores disponíveis.}
+\end{table}
+A média foi de \textbf{617,93 TWh} por mês. A mediana, valor central dos dados ordenados, foi de 600,75 TWh. O desvio-padrão de 127,49 TWh mostra a dispersão em torno da média. Parte dessa variação vem do crescimento ao longo dos anos e das diferenças entre os meses. O mínimo foi de 359,50 TWh, em fevereiro de 2015, e o máximo, de 964,90 TWh, em agosto de 2024.
+
+\section{Remoção de observações e imputação}
+\textbf{Imputar} significa estimar um valor que está faltando. Para avaliar os métodos, alguns valores conhecidos foram guardados e retirados da série. Depois, as estimativas foram comparadas com os valores guardados.
+
+O experimento usou os dados de 2015 a 2022. Foram removidos, em quatro cenários, 10\% dos 80 valores diretamente publicados, 20\%, um bloco de três meses e um bloco de seis meses. Cada cenário foi repetido 20 vezes. Todos os métodos receberam as mesmas lacunas. Quando fevereiro era retirado, o janeiro calculado a partir dele também era escondido, para evitar que a resposta fosse recuperada indiretamente.
+
+Foram comparados cinco métodos:
+\begin{itemize}
+\item \textbf{Média global:} usa a média dos valores que sobraram.
+\item \textbf{Interpolação linear:} liga os valores vizinhos por uma reta.
+\item \textbf{PCHIP:} liga os vizinhos por curvas que preservam a forma local dos dados.
+\item \textbf{Regressão harmônica no log:} ajusta uma tendência e ondas que representam o padrão anual. Usa o logaritmo dos valores e depois retorna à escala original.
+\item \textbf{Harmônica com resíduo:} acrescenta ao método anterior uma correção baseada nos desvios dos meses vizinhos.
+\end{itemize}
+
+A comparação usou o erro absoluto médio (MAE), o erro quadrático médio (EQM) e sua raiz (RMSE):
+\[
+MAE=\frac{1}{n}\sum|y_t-\widehat y_t|,\qquad
+EQM=\frac{1}{n}\sum(y_t-\widehat y_t)^2,\qquad RMSE=\sqrt{EQM}.
+\]
+Aqui, $y_t$ é o valor guardado e $\widehat y_t$, a estimativa. Quanto menor o erro, melhor o resultado. O EQM dá mais peso aos erros grandes.
+\begin{table}[htbp]\centering\small
+\caption{Erros médios dos métodos de imputação.}\label{tab:imputacao}
+\input{tabelas/imputacao}
+\fonte{Experimentos do notebook.}
+\nota{Médias entre repetições e cenários, com peso igual por cenário. O EQM é calculado antes de tirar a média; por isso, não é o quadrado do RMSE médio.}
+\end{table}
+
+A \textbf{regressão harmônica no log} foi a melhor pelo MAE, critério principal do notebook, e também pelo EQM. Ela foi usada para preencher as 12 lacunas originais, preservando os valores conhecidos. Como nenhum dezembro estava disponível, não foi possível conferir diretamente o erro das estimativas desse mês.
+
+\section{Identificação e tratamento de outliers}
+\textbf{Outliers} são valores muito diferentes do padrão esperado. Para encontrá-los, foi usada a STL robusta, que separa tendência, sazonalidade e resíduo, reduzindo a influência de valores extremos \cite{stl}. O resíduo é a parte que sobra após retirar os padrões estimados.
+
+A detecção foi feita no logaritmo da série preenchida. Um ponto foi sinalizado quando seu resíduo ficou a mais de 3,5 escalas robustas da mediana. Essa escala é $1{,}4826\times MAD$, em que MAD é a mediana das distâncias absolutas dos resíduos à sua mediana. Ela é menos afetada por extremos que o desvio-padrão. Apenas valores publicados diretamente foram avaliados como suspeitos.
+
+Foram encontrados \textbf{seis pontos suspeitos}. Eles podem representar acontecimentos reais, e não erros. Por isso, o tratamento foi feito em uma cópia: aplicou-se a \textbf{winsorização}, que limita os resíduos extremos ao limite aceito e reconstrói o valor da série.
+\begin{table}[htbp]\centering\small
+\caption{Pontos suspeitos e valores após o tratamento na cópia de estudo.}
+\input{tabelas/outliers_originais}
+\fonte{Detecção por STL e tratamento por winsorização.}
+\nota{$z_t^*$ indica a distância do resíduo à mediana em escalas robustas.}
+\end{table}
+
+Também foram criados seis erros artificiais, multiplicando valores conhecidos por fatores entre 0,25 e 2,8. O detector encontrou os seis e sinalizou mais um ponto. Os suspeitos originais ficaram fora dessa avaliação, pois não se sabe se são erros.
+
+Compararam-se três tratamentos: limitar os resíduos extremos; substituir os pontos pelo padrão estimado pela STL; e remover os pontos para preenchê-los pela regressão harmônica.
+\begin{table}[htbp]\centering\small
+\caption{Erros após tratar os outliers artificiais, em TWh.}
+\input{tabelas/tratamentos}
+\fonte{Comparação com os valores anteriores à alteração artificial.}
+\nota{As duas primeiras colunas de erro avaliam os seis pontos alterados; a última mostra o efeito nos demais pontos avaliados.}
+\end{table}
+
+A \textbf{reconstrução STL} teve o menor MAE nos seis pontos: 7,05 TWh. Porém, alterou os demais pontos mais que a winsorização. Isso mostra que também é preciso observar o efeito do tratamento sobre valores que não eram erros.
+
+\section{Média móvel, componentes e suavização}
+Os cálculos a seguir usam a cópia com lacunas preenchidas e suspeitos originais tratados. Os erros artificiais não entram nessa etapa.
+
+\subsection{Média móvel}
+A média móvel calcula a média de um grupo de meses próximos para reduzir oscilações. Foram usadas janelas de 3, 6 e 12 meses, incluindo o mês atual e os anteriores. Quanto maior a janela, mais suave e mais lenta é a resposta a mudanças.
+\[
+MM_k(t)=\frac{y_t+y_{t-1}+\cdots+y_{t-k+1}}{k}.
+\]
+Em junho de 2024, as médias de 3, 6 e 12 meses foram, respectivamente, \textbf{778,93; 769,59; e 792,94 TWh}. Também foi calculada a média centrada $2\times12$, que combina duas médias de 12 meses e usa valores antes e depois do mês analisado. Ela serve para estudar o passado, pois precisa de meses futuros.
+\grafico{06_medias_moveis}{Médias móveis: janelas maiores reduzem mais as oscilações.}{1}{0.28}
+
+\subsection{Tendência, sazonalidade e ciclo}
+\textbf{Tendência} é o movimento de longo prazo. \textbf{Sazonalidade} é um padrão que se repete no calendário. \textbf{Ciclo} é uma oscilação mais lenta em torno da tendência, sem duração fixa. O \textbf{resíduo} é o que esses componentes não explicam.
+
+A STL foi aplicada em TWh, com período 12, janela sazonal 13 e janela de tendência 25. O período 12 representa o ano. A janela 13 suaviza os registros do mesmo mês ao longo dos anos; não são 13 meses consecutivos. A janela 25 suaviza a tendência em cerca de dois anos. Essas são escolhas de suavização, não valores comprovadamente ideais.
+
+Em seguida, o filtro Hodrick--Prescott (HP), com $\lambda=129.600$, separou a parte suave da STL em tendência e ciclo \cite{hp}. O parâmetro $\lambda$ controla quanto a tendência será suavizada. Assim:
+\[
+y_t=\underbrace{T_t}_{\text{tendência}}+\underbrace{C_t}_{\text{ciclo}}+
+\underbrace{S_t}_{\text{sazonalidade}}+\underbrace{R_t}_{\text{resíduo}}.
+\]
+Em agosto de 2024, por exemplo, $964{,}90\approx820{,}18+4{,}34+135{,}06+5{,}33$ TWh. A pequena diferença vem do arredondamento.
+\grafico{07_decomposicao}{Componentes estimados da série.}{0.90}{0.52}
+
+A tendência é crescente e a sazonalidade apresenta picos no meio do ano. O ciclo depende dos filtros escolhidos: ele não comprova, por si só, fases de crescimento ou recessão econômica.
+
+\subsection{Holt e Holt--Winters}
+\textbf{Holt} suaviza o nível e a tendência \cite{holt}. A cada mês, combina o valor novo com o que o modelo esperava. Sua previsão é o nível estimado mais a tendência multiplicada pelo número de meses à frente. Como não inclui sazonalidade, tem dificuldade para acompanhar os picos anuais.
+
+\textbf{Holt--Winters} acrescenta o padrão sazonal de 12 meses \cite{hw}. Na versão \textbf{aditiva}, esse efeito é somado ao nível e à tendência. Na \textbf{multiplicativa}, ele é um fator proporcional: por exemplo, 1,10 representa 10\% acima do nível previsto.
+
+Os parâmetros $\alpha$, $\beta$ e $\gamma$ controlam a atualização do nível, da tendência e da sazonalidade. Valores maiores fazem o modelo reagir mais às novas observações. Eles foram estimados buscando reduzir os erros de ajuste.
+\begin{table}[htbp]\centering\small
+\caption{Parâmetros estimados na série de estudo completa.}
+\input{tabelas/parametros}
+\fonte{Ajustes do notebook.}
+\end{table}
+
+Os valores muito pequenos aparecem como zero quando arredondados. $\beta$ próximo de zero indica que a inclinação muda pouco, não que a tendência desapareceu. No Holt, ela foi de aproximadamente \textbf{3,318 TWh por mês}. No Holt--Winters multiplicativo, $\gamma$ próximo de zero indica pouca atualização do padrão sazonal inicial.
+\grafico{10_ajustes_suavizados}{Série de estudo e valores ajustados por Holt e Holt--Winters.}{0.95}{0.45}
+
+Em agosto de 2024, os valores ajustados foram 810,49 TWh para Holt, 921,17 TWh para Holt--Winters aditivo e 937,34 TWh para o multiplicativo, diante de 964,90 TWh observados. Esses ajustes usam a amostra completa.
+
+Para comparar previsões, os modelos foram ajustados até 2022 e avaliados em 2023. O \textbf{Holt--Winters aditivo} foi escolhido pelo menor MAE: 25,09 TWh. Depois, ajustado até 2023, teve MAE de 18,84 TWh em 2024. O multiplicativo teve erro menor em 2024, de 16,45 TWh, mas a escolha anterior foi mantida para não usar o teste na seleção. O preenchimento e o tratamento foram refeitos somente com os dados de cada treino. A avaliação abrange dez meses diretamente publicados de 2023 e nove de 2024.
+
+\section*{Conclusão}
+A série mostrou crescimento do consumo e um padrão anual. A regressão harmônica foi a melhor para preencher as lacunas avaliadas, e a reconstrução STL teve o menor erro no tratamento dos outliers artificiais. As médias móveis e a decomposição facilitaram a leitura dos padrões, enquanto Holt--Winters acompanhou melhor a sazonalidade. Os resultados dependem das estimativas para os meses faltantes, especialmente dezembro.
+
+\begin{thebibliography}{9}
+\footnotesize\raggedright\setlength{\itemsep}{0pt}
+\bibitem{neaArquivo} NATIONAL ENERGY ADMINISTRATION. \textit{Arquivo de publicações da área de planejamento}. \href{https://www.nea.gov.cn/sjzz/ghs/zjgx.htm}{Acessar fonte}.
+\bibitem{neaMensal} NATIONAL ENERGY ADMINISTRATION. \textit{Consumo de eletricidade em março de 2024}. 17 abr. 2024. \href{https://www.nea.gov.cn/2024-04/17/c_1310771602.htm}{Acessar fonte}.
+\bibitem{neaBimestre} NATIONAL ENERGY ADMINISTRATION. \textit{Consumo de eletricidade em janeiro--fevereiro de 2024}. 20 mar. 2024. \href{https://www.nea.gov.cn/2024-03/20/c_1310768302.htm}{Acessar fonte}.
+\bibitem{neaMaio} NATIONAL ENERGY ADMINISTRATION. \textit{Consumo de eletricidade em maio de 2023}. Republicação de notícia do People's Daily no portal de cooperação energética, 16 jun. 2023. \href{https://obor.nea.gov.cn/detail/19346.html}{Acessar fonte}.
+\bibitem{stl} STATSMODELS. \textit{STL: Season-Trend decomposition using LOESS}. Documentação. \href{https://www.statsmodels.org/stable/generated/statsmodels.tsa.seasonal.STL.html}{Acessar fonte}.
+\bibitem{hp} STATSMODELS. \textit{Hodrick--Prescott filter}. Documentação. \href{https://www.statsmodels.org/stable/generated/statsmodels.tsa.filters.hp_filter.hpfilter.html}{Acessar fonte}.
+\bibitem{holt} STATSMODELS. \textit{Holt's Exponential Smoothing}. Documentação. \href{https://www.statsmodels.org/stable/generated/statsmodels.tsa.holtwinters.Holt.html}{Acessar fonte}.
+\bibitem{hw} STATSMODELS. \textit{ExponentialSmoothing: Holt--Winters}. Documentação. \href{https://www.statsmodels.org/stable/generated/statsmodels.tsa.holtwinters.ExponentialSmoothing.html}{Acessar fonte}.
+\end{thebibliography}
+\end{document}
